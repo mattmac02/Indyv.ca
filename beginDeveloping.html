@@ -65,51 +65,56 @@
                         </span>
                     </div>
 
-        <h1>Professional Experience</h1>
-        <div class="infoFillp">
-        <div class="input_fields_wrap2">
-            <input class="txtBox" type="text" name="Work Location " size="100" placeholder="Where did you work?">
-        </div>
-        <div class="input_fields_wrap2">
-            <input class="txtBox" type="text" name="Job Title " size="100" placeholder="What was your job title at this company?">
-        </div>
-        <div class="input_fields_wrap2">
-            <input class="txtBox" type="text" name="Work Time Period " size="100" placeholder="When did you start and finish at this company?">
-        </div>
-        <span><button class="submitButton2p"><i class="fa fa-plus"></i></button></span>
-        </div>
+                    <h1>Professional Experience</h1>
+                    <div class="infoFillp">
+                        <div class="input_fields_wrap2">
+                            <input class="txtBox" type="text" name="Work Location " size="100" placeholder="Where did you work?">
+                        </div>
+                        <div class="input_fields_wrap2">
+                            <input class="txtBox" type="text" name="Job Title " size="100" placeholder="What was your job title at this company?">
+                        </div>
+                        <div class="input_fields_wrap2">
+                            <input class="txtBox" type="text" name="Work Time Period " size="100" placeholder="When did you start and finish at this company?">
+                        </div>
+                        <span>
+                            <button class="submitButton2p">
+                                <i class="fa fa-plus"></i>
+                            </button>
+                        </span>
+                    </div>
 
+                    <h1>Extracurricular and Leadership Experience</h1>
+                    <div class="infoFillv">
+                        <div class="input_fields_wrap3">
+                            <input class="txtBox" type="text" name="Extracurricular Experience " size="100" placeholder="What was the experience?">
+                        </div>
+                        <div class="input_fields_wrap3">
+                            <input class="txtBox" type="text" name="Experience Role " size="100" placeholder="What was your role in this experience?">
+                        </div>
+                        <div class="input_fields_wrap3">
+                            <input class="txtBox" type="text" name="Experience Time Period " size="100" placeholder="When did you start and finish this experience?">
+                        </div>
+                        <span>
+                            <button class="submitButton2v">
+                                <i class="fa fa-plus"></i>
+                            </button>
+                        </span>
+                    </div>
 
-
-        <h1>Extracurricular and Leadership Experience</h1>
-        <div class="infoFillv">
-        <div class="input_fields_wrap3">
-            <input class="txtBox" type="text" name="Extracurricular Experience " size="100" placeholder="What was the experience?">
-        </div>
-        <div class="input_fields_wrap3">
-            <input class="txtBox" type="text" name="Experience Role " size="100" placeholder="What was your role in this experience?">
-        </div>
-        <div class="input_fields_wrap3">
-            <input class="txtBox" type="text" name="Experience Time Period " size="100" placeholder="When did you start and finish this experience?">
-        </div>
-        <span><button class="submitButton2v"><i class="fa fa-plus"></i></button></span>
-        </span>
-        </div>
-
-
-        <div>
-            <h2>Additional Information</h2>
-        <textarea type="text" name="Additional Information" placeholder="Add any additional information..." style="width:35rem; height:8rem;"></textarea>
-        </div>
-        <div class="samples">
-            <h1>Choose Your Design</h1>
-            <img id="myImg" src="T1.png" alt="Template 1" style="width:100%;max-width:300px">
-            <img id="myImg2" src="T2.png" alt="Template 2" style="width:100%;max-width:300px">
-            <img id="myImg3" src="T3.png" alt="Template 3" style="width:100%;max-width:300px"><br>
-            <textarea type="text" name="Additional Information" placeholder="Number..." style="text-align:center; font-size:1rem; width:6rem; height:3rem;"></textarea>
-        </div>
-        <span><input type="submit" name="contactSubmit" value="Submit" class="submitButton3"  style="width:auto;"></span>
-        </form> 
+                    <h2>Additional Information</h2>
+                    <textarea type="text" name="Additional Information" placeholder="Add any additional information..." style="width:35rem; height:8rem;"></textarea>
+                    <div class="samples">
+                        <h1>Choose Your Design</h1>
+                            <img id="myImg" src="T1.png" alt="Template 1" style="width:100%;max-width:300px">
+                            <img id="myImg2" src="T2.png" alt="Template 2" style="width:100%;max-width:300px">
+                            <img id="myImg3" src="T3.png" alt="Template 3" style="width:100%;max-width:300px"><br>
+                            <textarea type="text" name="Template Choice" placeholder="Number..." style="text-align:center; font-size:1rem; width:6rem; height:3rem;"></textarea>
+                    </div>
+                    <span>
+                        <input type="submit" name="contactSubmit" value="Submit" class="submitButton3"  style="width:auto;">
+                    </span>
+                </div>
+            </form> 
         </div>
     
         
@@ -224,7 +229,7 @@ window.onclick = function(event) {
                 e.preventDefault();
                 if(x < max_fields){ //max input box allowed
                     x++; //text box increment
-                    $(wrapper1).append('option="x"<div><input class ="txtBox" type="text" name="mytext[]"/><a href="#" class="remove_field"><i class="fa fa-trash"></i></a></div>'); //add input box
+                    $(wrapper1).append('<div><input class ="txtBox" type="text" name="mytext[]"/><a href="#" class="remove_field"><i class="fa fa-trash"></i></a></div>'); //add input box
                 }
             });
             $(add_button2).click(function(e){ //on add input button click
