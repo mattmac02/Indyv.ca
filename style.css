@@ -214,9 +214,9 @@ article {
     margin-left:2.5%;
 }
 
-.infoFill {
+.infoFille, .infoFillp, .infoFillv {
     display:inline-block;
-    width: 30%;
+    width: 40%;
     margin-left:1.5%;
     margin-right:1.5%;
     font-family:'Raleway', sans-serif;
@@ -241,9 +241,9 @@ article {
     font-family:'Raleway', sans-serif;
 }
 
-input[type=text], .input_fields_wrap .txtBox{
+input[type=text], .input_fields_wrap1 .txtBox, .input_fields_wrap2 .txtBox, .input_fields_wrap3 .txtBox{
     width:100%;
-    padding:0.75rem;
+    padding:.85rem;
 }
 
 input[type=text], .input_fields_wrap h3{
@@ -251,7 +251,7 @@ input[type=text], .input_fields_wrap h3{
     text-align:center;
 }
 
-.submitButton2 {
+.submitButton2e, .submitButton2p, .submitButton2v {
     font-size:1.2rem;
     border-radius:0.375rem;
     padding:.7rem;
@@ -363,7 +363,7 @@ input[type=submit], .formSection .submitButton3:hover {
 #myImg {
     border-radius: 5px;
     cursor: pointer;
-    transition: 0.3s;
+     transition: 0.3s;
   }
 
   /* Caption of Modal Image (Image Text) - Same Width as the Image */
@@ -1394,3 +1394,5 @@ input[type=text], .container textarea {
     background-color: rgba(0,0,0,0.8);
     color:white;
   }
+
+ 
