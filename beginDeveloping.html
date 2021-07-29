@@ -131,6 +131,8 @@
                         Additional Information
                     </h2>
                     <textarea type="text" name="Additional Information" placeholder="Add any additional information..." style="width:35rem; height:8rem;"></textarea>
+                    <input type="image" src="T1.png" style="width:100%;max-width:300px">
+
                     <div class="samples">
                         <h1>
                             Choose Your Design
@@ -145,56 +147,6 @@
                         <input type="submit" name="contactSubmit" value="Submit" class="submitButton3"  style="width:auto;">
                     </span>
                 </div>
-                <script>
-                    $(document).ready(function() {
-                        var max_fields      = 5; //maximum input boxes allowed
-                        var wrapper1   		= $(".input_fields_wrap1"); //Fields wrapper
-                        var wrapper2   		= $(".input_fields_wrap2"); //Fields wrapper
-                        var wrapper3   		= $(".input_fields_wrap3"); //Fields wrapper
-                        var add_button1      = $(".submitButton2e"); //Add button ID
-                        var add_button2      = $(".submitButton2p"); //Add button ID
-                        var add_button3      = $(".submitButton2v"); //Add button ID
-            
-                        var x = 1; //initlal text box count
-                        $(add_button1).click(function(e){ //on add input button click
-                            e.preventDefault();
-                            if(x < max_fields){ //max input box allowed
-                                x++; //text box increment
-                                $(wrapper1).append('<div><input class ="txtBox" type="text" name="mytext[]"/><a href="#" class="remove_field"><i class="fa fa-trash"></i></a></div>'); //add input box
-                            }
-                        });
-                        $(add_button2).click(function(e)
-                        { 
-                            e.preventDefault();
-                            if(x < max_fields)
-                            { 
-                                x++; 
-                                $(wrapper2).append('<div><input class ="txtBox" type="text" name="mytext[]"/><a href="#" class="remove_field"><i class="fa fa-trash"></i></a></div>');
-                            }
-                        });
-                        $(add_button3).click(function(e)
-                        { 
-                            e.preventDefault();
-                            if(x < max_fields)
-                            { 
-                                x++; 
-                                $(wrapper3).append('<div><input class ="txtBox" type="text" name="mytext[]"/><a href="#" class="remove_field"><i class="fa fa-trash"></i></a></div>');
-                            }
-                        });
-                        $(wrapper1).on("click",".remove_field", function(e){ //user click on remove text
-                            e.preventDefault(); $(this).parent('div').remove(); x--;
-                        })
-                        $(wrapper2).on("click",".remove_field", function(e)
-                        { 
-                            e.preventDefault(); $(this).parent('div').remove(); x--;
-                        })
-                        $(wrapper3).on("click",".remove_field", function(e)
-                        { 
-                            e.preventDefault(); $(this).parent('div').remove(); x--;
-                        })
-                    }); 
-                    document.body.onload = getElementById('id01');
-                </script>
             </form> 
         </div>
         <div id="myModal" class="modal1">
@@ -274,5 +226,54 @@
             }
         </script>
     </body>
-    
+    <script>
+        $(document).ready(function() {
+            var max_fields      = 5; //maximum input boxes allowed
+            var wrapper1   		= $(".input_fields_wrap1"); //Fields wrapper
+            var wrapper2   		= $(".input_fields_wrap2"); //Fields wrapper
+            var wrapper3   		= $(".input_fields_wrap3"); //Fields wrapper
+            var add_button1      = $(".submitButton2e"); //Add button ID
+            var add_button2      = $(".submitButton2p"); //Add button ID
+            var add_button3      = $(".submitButton2v"); //Add button ID
+
+            var x = 1; //initlal text box count
+            $(add_button1).click(function(e){ //on add input button click
+                e.preventDefault();
+                if(x < max_fields){ //max input box allowed
+                    x++; //text box increment
+                    $(wrapper1).append('<div><input class ="txtBox" type="text" name="mytext[]"/><a href="#" class="remove_field"><i class="fa fa-trash"></i></a></div>'); //add input box
+                }
+            });
+            $(add_button2).click(function(e)
+            { 
+                e.preventDefault();
+                if(x < max_fields)
+                { 
+                    x++; 
+                    $(wrapper2).append('<div><input class ="txtBox" type="text" name="mytext[]"/><a href="#" class="remove_field"><i class="fa fa-trash"></i></a></div>');
+                }
+            });
+            $(add_button3).click(function(e)
+            { 
+                e.preventDefault();
+                if(x < max_fields)
+                { 
+                    x++; 
+                    $(wrapper3).append('<div><input class ="txtBox" type="text" name="mytext[]"/><a href="#" class="remove_field"><i class="fa fa-trash"></i></a></div>');
+                }
+            });
+            $(wrapper1).on("click",".remove_field", function(e){ //user click on remove text
+                e.preventDefault(); $(this).parent('div').remove(); x--;
+            })
+            $(wrapper2).on("click",".remove_field", function(e)
+            { 
+                e.preventDefault(); $(this).parent('div').remove(); x--;
+            })
+            $(wrapper3).on("click",".remove_field", function(e)
+            { 
+                e.preventDefault(); $(this).parent('div').remove(); x--;
+            })
+        }); 
+        document.body.onload = getElementById('id01');
+    </script>
 </html>
