@@ -494,6 +494,10 @@ input[type=submit], .formSection .submitButton3:hover {
     }
   }
 
+  .fileButtons, .headshotButton {
+      margin-bottom:2rem;
+  }
+
 /* Code for Template 1 */
 
 .header {
