@@ -8,10 +8,14 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600;700&display=swap" rel="stylesheet">
     </head>
-    <title>Start Creating</title>
+    <title>
+        Start Creating
+    </title>
     <body>
         <div class="navigationBar">
-            <a onclick="document.location='index.html'">Memo.me</a>
+            <a onclick="document.location='index.html'">
+                Memo.me
+            </a>
         </div>
         <section class="tester">
             <i class="material-icons" style="font-size:4rem;margin-top:-2rem;margin-left:2rem;color:white;">
@@ -19,35 +23,53 @@
             </i>
         </section>
         <div class="developingHeader">
-            <h1>Begin Creating</h1>
+            <h1>
+                Begin Creating
+            </h1>
         </div>
         <div class="formSection">  
             <form  name="Customer Information" method="POST" data-netlify="true">
                 <div class="container2">
-                    <label for="fname">Full Name</label><br>
+                    <label for="fname">
+                        Full Name
+                    </label><br>
                     <input type="text" id="fname" name="Fullname" placeholder="Your full name..." style="text-align: center;"><br>
           
-                    <label for="email">Email Address</label><br>
+                    <label for="email">
+                        Email Address
+                    </label><br>
                     <input type="text" name="Mail " placeholder="Your email address..." style="text-align: center;"><br>
 
-                    <label for="pnumber">Phone Number</label><br>
+                    <label for="pnumber">
+                        Phone Number
+                    </label><br>
                     <input type="text" id="pnumber" name="Phone number " placeholder="Your phone number..." style="text-align: center;"><br>
 
-                    <label for="country">Country</label><br>
+                    <label for="country">
+                        Country
+                    </label><br>
                     <input type="text" id="country" name="Country " placeholder="Your country..." style="text-align: center;"><br>
 
-                    <label for="province">Province / State</label><br>
+                    <label for="province">
+                        Province / State
+                    </label><br>
                     <input type="text" id="province" name="Province " placeholder="Your province / state..." style="text-align: center;"><br>
 
-                    <label for="city">City</label><br>
+                    <label for="city">
+                        City
+                    </label><br>
                     <input type="text" id="city" name="City " placeholder="Your city..." style="text-align: center;"><br>
 
                     <div>
-                        <h2>Personal Description</h2>
+                        <h2>
+                            Personal Description
+                        </h2>
                         <textarea type="text" name="Personal Description" placeholder="Write a short bio about yourself so people can get to know you personally..." style="width:35rem; height:8rem;"></textarea>
                     </div>
 
-                    <h1>Education</h1>
+                    <h1>
+                        Education
+                    </h1>
                     <div class="infoFille">
                         <div class="input_fields_wrap1">
                             <input class="txtBox" type="text" name="School Location " size="100" placeholder="Where did you go to school?">
@@ -65,7 +87,9 @@
                         </span>
                     </div>
 
-                    <h1>Professional Experience</h1>
+                    <h1>
+                        Professional Experience
+                    </h1>
                     <div class="infoFillp">
                         <div class="input_fields_wrap2">
                             <input class="txtBox" type="text" name="Work Location " size="100" placeholder="Where did you work?">
@@ -83,7 +107,9 @@
                         </span>
                     </div>
 
-                    <h1>Extracurricular and Leadership Experience</h1>
+                    <h1>
+                        Extracurricular and Leadership Experience
+                    </h1>
                     <div class="infoFillv">
                         <div class="input_fields_wrap3">
                             <input class="txtBox" type="text" name="Extracurricular Experience " size="100" placeholder="What was the experience?">
@@ -101,169 +127,152 @@
                         </span>
                     </div>
 
-                    <h2>Additional Information</h2>
+                    <h2>
+                        Additional Information
+                    </h2>
                     <textarea type="text" name="Additional Information" placeholder="Add any additional information..." style="width:35rem; height:8rem;"></textarea>
                     <div class="samples">
-                        <h1>Choose Your Design</h1>
+                        <h1>
+                            Choose Your Design
+                        </h1>
                             <img id="myImg" src="T1.png" alt="Template 1" style="width:100%;max-width:300px">
                             <img id="myImg2" src="T2.png" alt="Template 2" style="width:100%;max-width:300px">
                             <img id="myImg3" src="T3.png" alt="Template 3" style="width:100%;max-width:300px"><br>
                             <textarea type="text" name="Template Choice" placeholder="Number..." style="text-align:center; font-size:1rem; width:6rem; height:3rem;"></textarea>
                     </div>
-                    <input type="file" name="xxxx" size="xxxx"
-maxlength="xxxx" accept="xxxx">
+                    <input type="file" name="xxxx" size="xxxx" maxlength="xxxx" accept="xxxx">
                     <span>
                         <input type="submit" name="contactSubmit" value="Submit" class="submitButton3"  style="width:auto;">
                     </span>
                 </div>
+                <script>
+                    $(document).ready(function() {
+                        var max_fields      = 5; //maximum input boxes allowed
+                        var wrapper1   		= $(".input_fields_wrap1"); //Fields wrapper
+                        var wrapper2   		= $(".input_fields_wrap2"); //Fields wrapper
+                        var wrapper3   		= $(".input_fields_wrap3"); //Fields wrapper
+                        var add_button1      = $(".submitButton2e"); //Add button ID
+                        var add_button2      = $(".submitButton2p"); //Add button ID
+                        var add_button3      = $(".submitButton2v"); //Add button ID
+            
+                        var x = 1; //initlal text box count
+                        $(add_button1).click(function(e){ //on add input button click
+                            e.preventDefault();
+                            if(x < max_fields){ //max input box allowed
+                                x++; //text box increment
+                                $(wrapper1).append('<div><input class ="txtBox" type="text" name="mytext[]"/><a href="#" class="remove_field"><i class="fa fa-trash"></i></a></div>'); //add input box
+                            }
+                        });
+                        $(add_button2).click(function(e)
+                        { 
+                            e.preventDefault();
+                            if(x < max_fields)
+                            { 
+                                x++; 
+                                $(wrapper2).append('<div><input class ="txtBox" type="text" name="mytext[]"/><a href="#" class="remove_field"><i class="fa fa-trash"></i></a></div>');
+                            }
+                        });
+                        $(add_button3).click(function(e)
+                        { 
+                            e.preventDefault();
+                            if(x < max_fields)
+                            { 
+                                x++; 
+                                $(wrapper3).append('<div><input class ="txtBox" type="text" name="mytext[]"/><a href="#" class="remove_field"><i class="fa fa-trash"></i></a></div>');
+                            }
+                        });
+                        $(wrapper1).on("click",".remove_field", function(e){ //user click on remove text
+                            e.preventDefault(); $(this).parent('div').remove(); x--;
+                        })
+                        $(wrapper2).on("click",".remove_field", function(e)
+                        { 
+                            e.preventDefault(); $(this).parent('div').remove(); x--;
+                        })
+                        $(wrapper3).on("click",".remove_field", function(e)
+                        { 
+                            e.preventDefault(); $(this).parent('div').remove(); x--;
+                        })
+                    }); 
+                    document.body.onload = getElementById('id01');
+                </script>
             </form> 
         </div>
-    
-        
-
-        <!-- The Modal -->
         <div id="myModal" class="modal1">
-          <span class="close">&times;</span>
-          <img class="modal-content" id="img01">
-          <div id="caption"></div>
+            <span class="close">
+                &times;
+            </span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
         </div>
         
         <script>
         // Get the modal
-        var modal1 = document.getElementById("myModal");
-        
-        // Get the image and insert it inside the modal - use its "alt" text as a caption
-        var img = document.getElementById("myImg");
-        var modalImg = document.getElementById("img01");
-        var captionText = document.getElementById("caption");
-        img.onclick = function(){
-          modal1.style.display = "block";
-          modalImg.src = this.src;
-          captionText.innerHTML = this.alt;
-        }
-        
-        // Get the <span> element that closes the modal
-        var span = document.getElementsByClassName("close")[0];
-        
-        // When the user clicks on <span> (x), close the modal
-        span.onclick = function() { 
-          modal1.style.display = "none";
-        }
-        // Get the modal
-        var modal1 = document.getElementById("myModal");
-        
-        // Get the image and insert it inside the modal - use its "alt" text as a caption
-        var img = document.getElementById("myImg2");
-        var modalImg = document.getElementById("img01");
-        var captionText = document.getElementById("caption");
-        img.onclick = function(){
-          modal1.style.display = "block";
-          modalImg.src = this.src;
-          captionText.innerHTML = this.alt;
-        }
-        
-        // Get the <span> element that closes the modal
-        var span = document.getElementsByClassName("close")[0];
-        
-        // When the user clicks on <span> (x), close the modal
-        span.onclick = function() { 
-          modal1.style.display = "none";
-        }
-        // Get the modal
-        var modal1 = document.getElementById("myModal");
-        
-        // Get the image and insert it inside the modal - use its "alt" text as a caption
-        var img = document.getElementById("myImg3");
-        var modalImg = document.getElementById("img01");
-        var captionText = document.getElementById("caption");
-        img.onclick = function(){
-          modal1.style.display = "block";
-          modalImg.src = this.src;
-          captionText.innerHTML = this.alt;
-        }
-        
-        // Get the <span> element that closes the modal
-        var span = document.getElementsByClassName("close")[0];
-        
-        // When the user clicks on <span> (x), close the modal
-        span.onclick = function() { 
-          modal1.style.display = "none";
-        }
+            var modal1 = document.getElementById("myModal");
+            
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+            var img = document.getElementById("myImg");
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            img.onclick = function()
+            {
+                modal1.style.display = "block";
+                modalImg.src = this.src;
+                captionText.innerHTML = this.alt;
+            }
+            
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+            
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function()
+            { 
+                modal1.style.display = "none";
+            }
+            // Get the modal
+            var modal1 = document.getElementById("myModal");
+            
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+            var img = document.getElementById("myImg2");
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            img.onclick = function()
+            {
+                modal1.style.display = "block";
+                modalImg.src = this.src;
+                captionText.innerHTML = this.alt;
+            }
+            
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+            
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function()
+            { 
+                modal1.style.display = "none";
+            }
+            // Get the modal
+            var modal1 = document.getElementById("myModal");
+            
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+            var img = document.getElementById("myImg3");
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            img.onclick = function()
+            {
+                modal1.style.display = "block";
+                modalImg.src = this.src;
+                captionText.innerHTML = this.alt;
+            }
+            
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+            
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() 
+            { 
+                modal1.style.display = "none";
+            }
         </script>
-
-        <div id="id01" class="modal">
-            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-              <div class="container6">
-                <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
-                    <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none"/>
-                    <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
-                  </svg>
-                  <h1>Thank you for your submission!</h1>
-              </div>
-          </div>
     </body>
-
-
-
-    <script>
-        // Get the modal
-var modal = document.getElementById('id01');
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-
-
-        $(document).ready(function() {
-            var max_fields      = 5; //maximum input boxes allowed
-            var wrapper1   		= $(".input_fields_wrap1"); //Fields wrapper
-            var wrapper2   		= $(".input_fields_wrap2"); //Fields wrapper
-            var wrapper3   		= $(".input_fields_wrap3"); //Fields wrapper
-            var add_button1      = $(".submitButton2e"); //Add button ID
-            var add_button2      = $(".submitButton2p"); //Add button ID
-            var add_button3      = $(".submitButton2v"); //Add button ID
-
-            var x = 1; //initlal text box count
-            $(add_button1).click(function(e){ //on add input button click
-                e.preventDefault();
-                if(x < max_fields){ //max input box allowed
-                    x++; //text box increment
-                    $(wrapper1).append('<div><input class ="txtBox" type="text" name="mytext[]"/><a href="#" class="remove_field"><i class="fa fa-trash"></i></a></div>'); //add input box
-                }
-            });
-            $(add_button2).click(function(e){ //on add input button click
-                e.preventDefault();
-                if(x < max_fields){ //max input box allowed
-                    x++; //text box increment
-                    $(wrapper2).append('<div><input class ="txtBox" type="text" name="mytext[]"/><a href="#" class="remove_field"><i class="fa fa-trash"></i></a></div>'); //add input box
-                }
-            });
-            $(add_button3).click(function(e){ //on add input button click
-                e.preventDefault();
-                if(x < max_fields){ //max input box allowed
-                    x++; //text box increment
-                    $(wrapper3).append('<div><input class ="txtBox" type="text" name="mytext[]"/><a href="#" class="remove_field"><i class="fa fa-trash"></i></a></div>'); //add input box
-                }
-            });
-            $(wrapper1).on("click",".remove_field", function(e){ //user click on remove text
-                e.preventDefault(); $(this).parent('div').remove(); x--;
-            })
-            $(wrapper2).on("click",".remove_field", function(e){ //user click on remove text
-                e.preventDefault(); $(this).parent('div').remove(); x--;
-            })
-            $(wrapper3).on("click",".remove_field", function(e){ //user click on remove text
-                e.preventDefault(); $(this).parent('div').remove(); x--;
-            })
-        }); 
-        document.body.onload = getElementById('id01');
-        </script>
-
-
-
-
-
-
+    
 </html>
