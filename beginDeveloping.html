@@ -1,5 +1,6 @@
 <html>
-    <head>
+
+<head>
     <link href="style.css" type="text/css" rel="stylesheet">
     <meta name="viewport" content="width=device-width">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -7,278 +8,272 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600;700&display=swap" rel="stylesheet">
-    </head>
-    <title>
-        Start Creating
-    </title>
-    <body>
-        <div class="navigationBar">
-            <a onclick="document.location='index.html'">
-                Memo.me
-            </a>
-        </div>
-        <section class="tester">
-            <i class="material-icons" style="font-size:4rem;margin-top:-2rem;margin-left:2rem;color:white;">
-                fingerprint
-            </i>
-        </section>
-        <div class="developingHeader">
-            <h1>
-                Begin Creating
-            </h1>
-        </div>
-        <div class="formSection">  
-            <form  name="Customer Information" method="POST" data-netlify="true">
-                <div class="container2">
-                    <label for="fname">
-                        Full Name
-                    </label><br>
-                    <input type="text" id="fname" name="Fullname" placeholder="Your full name..." style="text-align: center;"><br>
-          
-                    <label for="email">
-                        Email Address
-                    </label><br>
-                    <input type="text" name="Mail " placeholder="Your email address..." style="text-align: center;"><br>
+</head>
+<title>
+    Start Creating
+</title>
 
-                    <label for="pnumber">
-                        Phone Number
-                    </label><br>
-                    <input type="text" id="pnumber" name="Phone number " placeholder="Your phone number..." style="text-align: center;"><br>
+<body>
+    <div class="navigationBar">
+        <a onclick="document.location='index.html'"> <!--Hyperlink back to the homepage-->
+            Memo.me
+        </a>
+    </div>
+    <section class="tester">
+        <i class="material-icons" style="font-size:4rem;margin-top:-2rem;margin-left:2rem;color:white;"> <!--Fingerprint icon-->
+            fingerprint
+        </i>
+    </section>
+    <div class="developingHeader">
+        <h1>
+            Begin Creating
+        </h1>
+    </div>
+    <div class="formSection">
+        <form name="Customer Information" method="POST" data-netlify="true">
+            <div class="container2">
+                <label for="fname">
+                    Full Name
+                </label><br>
+                <input type="text" id="fname" name="Fullname" placeholder="Your full name..." style="text-align: center;"><br> <!--Full name input-->
 
-                    <label for="country">
-                        Country
-                    </label><br>
-                    <input type="text" id="country" name="Country " placeholder="Your country..." style="text-align: center;"><br>
+                <label for="email">
+                    Email Address
+                </label><br>
+                <input type="text" name="Mail " placeholder="Your email address..." style="text-align: center;"><br> <!--Email input-->
 
-                    <label for="province">
-                        Province / State
-                    </label><br>
-                    <input type="text" id="province" name="Province " placeholder="Your province / state..." style="text-align: center;"><br>
+                <label for="pnumber">
+                    Phone Number
+                </label><br>
+                <input type="text" id="pnumber" name="Phone number " placeholder="Your phone number..." style="text-align: center;"><br> <!--Phone number input-->
 
-                    <label for="city">
-                        City
-                    </label><br>
-                    <input type="text" id="city" name="City " placeholder="Your city..." style="text-align: center;"><br>
+                <label for="country">
+                    Country
+                </label><br>
+                <input type="text" id="country" name="Country " placeholder="Your country..." style="text-align: center;"><br> <!--Country input-->
 
-                    <div>
-                        <h2>
-                            Personal Description
-                        </h2>
-                        <textarea type="text" name="Personal Description" placeholder="Write a short bio about yourself so people can get to know you personally..." style="width:35rem; height:8rem;"></textarea>
-                    </div>
+                <label for="province">
+                    Province / State
+                </label><br>
+                <input type="text" id="province" name="Province " placeholder="Your province / state..." style="text-align: center;"><br> <!--Province/State input-->
 
-                    <h1>
-                        Education
-                    </h1>
-                    <div class="infoFille">
-                        <div class="input_fields_wrap1">
-                            <input class="txtBox" type="text" name="School Location " size="100" placeholder="Where did you go to school?">
-                        </div>
-                        <div class="input_fields_wrap1">
-                            <input class="txtBox" type="text" name="School Time Period " size="100" placeholder="When did start and finish at this school?">
-                        </div>
-                        <div class="input_fields_wrap1">
-                            <input class="txtBox" type="text" name="School Awards " size="100" placeholder="Did you win any awards during your time at this school?">
-                        </div>
-                        <span>
-                            <button class="submitButton2e">
-                                <i class="fa fa-plus"></i>
-                            </button>
-                        </span>
-                    </div>
+                <label for="city">
+                    City
+                </label><br>
+                <input type="text" id="city" name="City " placeholder="Your city..." style="text-align: center;"><br> <!--City input-->
 
-                    <h1>
-                        Professional Experience
-                    </h1>
-                    <div class="infoFillp">
-                        <div class="input_fields_wrap2">
-                            <input class="txtBox" type="text" name="Work Location " size="100" placeholder="Where did you work?">
-                        </div>
-                        <div class="input_fields_wrap2">
-                            <input class="txtBox" type="text" name="Job Title " size="100" placeholder="What was your job title at this company?">
-                        </div>
-                        <div class="input_fields_wrap2">
-                            <input class="txtBox" type="text" name="Work Time Period " size="100" placeholder="When did you start and finish at this company?">
-                        </div>
-                        <span>
-                            <button class="submitButton2p">
-                                <i class="fa fa-plus"></i>
-                            </button>
-                        </span>
-                    </div>
-
-                    <h1>
-                        Extracurricular and Leadership Experience
-                    </h1>
-                    <div class="infoFillv">
-                        <div class="input_fields_wrap3">
-                            <input class="txtBox" type="text" name="Extracurricular Experience " size="100" placeholder="What was the experience?">
-                        </div>
-                        <div class="input_fields_wrap3">
-                            <input class="txtBox" type="text" name="Experience Role " size="100" placeholder="What was your role in this experience?">
-                        </div>
-                        <div class="input_fields_wrap3">
-                            <input class="txtBox" type="text" name="Experience Time Period " size="100" placeholder="When did you start and finish this experience?">
-                        </div>
-                        <span>
-                            <button class="submitButton2v">
-                                <i class="fa fa-plus"></i>
-                            </button>
-                        </span>
-                    </div>
-
+                <div>
                     <h2>
-                        Additional Information
+                        Personal Description
                     </h2>
-                    <textarea type="text" name="Additional Information" placeholder="Add any additional information..." style="width:35rem; height:8rem;"></textarea>
+                    <textarea type="text" name="Personal Description" placeholder="Write a short bio about yourself so people can get to know you personally..." style="width:35rem; height:8rem;"></textarea> <!--Personal bio input-->
+                </div>
 
-                    <div class="samples">
-                        <h1>
-                            Choose Your Design
-                        </h1>
-                            <img id="myImg" src="T1.png" alt="Template 1" style="width:100%;max-width:300px">
-                            <img id="myImg2" src="T2.png" alt="Template 2" style="width:100%;max-width:300px">
-                            <img id="myImg3" src="T3.png" alt="Template 3" style="width:100%;max-width:300px"><br>
-                            <textarea type="text" name="Template Choice" placeholder="Number..." style="text-align:center; font-size:1rem; width:6rem; height:3rem;"></textarea>
+                <h1>
+                    Education
+                </h1>
+                <!--School inputs-->
+                <div class="infoFille">
+                    <div class="input_fields_wrap1">
+                        <input class="txtBox" type="text" name="School Location " size="100" placeholder="Where did you go to school?"> 
                     </div>
-
-                    <h3>Submit Your Headshot</h3>
-                    <input type="file" name="Headshot Upload" class="headshotButton" size="xxxx" maxlength="xxxx" accept="xxxx">
-
-                    <h3>Submit Your Resume or Other File</h3>
-                    <input type="file" name="File Upload" class="fileButtons" size="xxxx" maxlength="xxxx" accept="xxxx"><br>
-
+                    <div class="input_fields_wrap1">
+                        <input class="txtBox" type="text" name="School Time Period " size="100" placeholder="When did start and finish at this school?">
+                    </div>
+                    <div class="input_fields_wrap1">
+                        <input class="txtBox" type="text" name="School Awards " size="100" placeholder="Did you win any awards during your time at this school?">
+                    </div>
                     <span>
-                        <input type="submit" name="contactSubmit" value="Submit" class="submitButton3"  style="width:auto;">
+                        <button class="submitButton2e"> <!--Add text box button-->
+                            <i class="fa fa-plus"></i>
+                        </button>
                     </span>
                 </div>
-            </form> 
-        </div>
-        <div id="myModal" class="modal1">
-            <span class="close">
-                &times;
-            </span>
-            <img class="modal-content" id="img01">
-            <div id="caption"></div>
-        </div>
-        
-        <script>
-        // Get the modal
-            var modal1 = document.getElementById("myModal");
-            
-            // Get the image and insert it inside the modal - use its "alt" text as a caption
-            var img = document.getElementById("myImg");
-            var modalImg = document.getElementById("img01");
-            var captionText = document.getElementById("caption");
-            img.onclick = function()
-            {
-                modal1.style.display = "block";
-                modalImg.src = this.src;
-                captionText.innerHTML = this.alt;
-            }
-            
-            // Get the <span> element that closes the modal
-            var span = document.getElementsByClassName("close")[0];
-            
-            // When the user clicks on <span> (x), close the modal
-            span.onclick = function()
-            { 
-                modal1.style.display = "none";
-            }
-            // Get the modal
-            var modal1 = document.getElementById("myModal");
-            
-            // Get the image and insert it inside the modal - use its "alt" text as a caption
-            var img = document.getElementById("myImg2");
-            var modalImg = document.getElementById("img01");
-            var captionText = document.getElementById("caption");
-            img.onclick = function()
-            {
-                modal1.style.display = "block";
-                modalImg.src = this.src;
-                captionText.innerHTML = this.alt;
-            }
-            
-            // Get the <span> element that closes the modal
-            var span = document.getElementsByClassName("close")[0];
-            
-            // When the user clicks on <span> (x), close the modal
-            span.onclick = function()
-            { 
-                modal1.style.display = "none";
-            }
-            // Get the modal
-            var modal1 = document.getElementById("myModal");
-            
-            // Get the image and insert it inside the modal - use its "alt" text as a caption
-            var img = document.getElementById("myImg3");
-            var modalImg = document.getElementById("img01");
-            var captionText = document.getElementById("caption");
-            img.onclick = function()
-            {
-                modal1.style.display = "block";
-                modalImg.src = this.src;
-                captionText.innerHTML = this.alt;
-            }
-            
-            // Get the <span> element that closes the modal
-            var span = document.getElementsByClassName("close")[0];
-            
-            // When the user clicks on <span> (x), close the modal
-            span.onclick = function() 
-            { 
-                modal1.style.display = "none";
-            }
-        </script>
-    </body>
-    <script>
-        $(document).ready(function() {
-            var max_fields      = 5; //maximum input boxes allowed
-            var wrapper1   		= $(".input_fields_wrap1"); //Fields wrapper
-            var wrapper2   		= $(".input_fields_wrap2"); //Fields wrapper
-            var wrapper3   		= $(".input_fields_wrap3"); //Fields wrapper
-            var add_button1      = $(".submitButton2e"); //Add button ID
-            var add_button2      = $(".submitButton2p"); //Add button ID
-            var add_button3      = $(".submitButton2v"); //Add button ID
 
-            var x = 1; //initlal text box count
-            $(add_button1).click(function(e){ //on add input button click
-                e.preventDefault();
-                if(x < max_fields){ //max input box allowed
-                    x++; //text box increment
-                    $(wrapper1).append('<div><input class ="txtBox" type="text" name="mytext[]"/><a href="#" class="remove_field"><i class="fa fa-trash"></i></a></div>'); //add input box
-                }
-            });
-            $(add_button2).click(function(e)
-            { 
-                e.preventDefault();
-                if(x < max_fields)
-                { 
-                    x++; 
-                    $(wrapper2).append('<div><input class ="txtBox" type="text" name="mytext[]"/><a href="#" class="remove_field"><i class="fa fa-trash"></i></a></div>');
-                }
-            });
-            $(add_button3).click(function(e)
-            { 
-                e.preventDefault();
-                if(x < max_fields)
-                { 
-                    x++; 
-                    $(wrapper3).append('<div><input class ="txtBox" type="text" name="mytext[]"/><a href="#" class="remove_field"><i class="fa fa-trash"></i></a></div>');
-                }
-            });
-            $(wrapper1).on("click",".remove_field", function(e){ //user click on remove text
-                e.preventDefault(); $(this).parent('div').remove(); x--;
-            })
-            $(wrapper2).on("click",".remove_field", function(e)
-            { 
-                e.preventDefault(); $(this).parent('div').remove(); x--;
-            })
-            $(wrapper3).on("click",".remove_field", function(e)
-            { 
-                e.preventDefault(); $(this).parent('div').remove(); x--;
-            })
-        }); 
-        document.body.onload = getElementById('id01');
+                <h1>
+                    Professional Experience
+                </h1>
+                <!--Work inputs-->
+                <div class="infoFillp">
+                    <div class="input_fields_wrap2">
+                        <input class="txtBox" type="text" name="Work Location " size="100" placeholder="Where did you work?">
+                    </div>
+                    <div class="input_fields_wrap2">
+                        <input class="txtBox" type="text" name="Job Title " size="100" placeholder="What was your job title at this company?">
+                    </div>
+                    <div class="input_fields_wrap2">
+                        <input class="txtBox" type="text" name="Work Time Period " size="100" placeholder="When did you start and finish at this company?">
+                    </div>
+                    <span>
+                        <button class="submitButton2p">
+                            <i class="fa fa-plus"></i>
+                        </button>
+                    </span>
+                </div>
+
+                <h1>
+                    Extracurricular and Leadership Experience
+                </h1>
+                <!--Extracurricular inputs-->
+                <div class="infoFillv">
+                    <div class="input_fields_wrap3">
+                        <input class="txtBox" type="text" name="Extracurricular Experience " size="100" placeholder="What was the experience?">
+                    </div>
+                    <div class="input_fields_wrap3">
+                        <input class="txtBox" type="text" name="Experience Role " size="100" placeholder="What was your role in this experience?">
+                    </div>
+                    <div class="input_fields_wrap3">
+                        <input class="txtBox" type="text" name="Experience Time Period " size="100" placeholder="When did you start and finish this experience?">
+                    </div>
+                    <span>
+                        <button class="submitButton2v">
+                            <i class="fa fa-plus"></i>
+                        </button>
+                    </span>
+                </div>
+
+                <h2>
+                    Additional Information
+                </h2>
+                <textarea type="text" name="Additional Information" placeholder="Add any additional information..." style="width:35rem; height:8rem;"></textarea> <!--Extra info input-->
+                <!--Template choosing section-->
+                <div class="samples">
+                    <h1>
+                        Choose Your Design
+                    </h1>
+                    <img id="myImg" src="T1.png" alt="Template 1" style="width:100%;max-width:300px">
+                    <img id="myImg2" src="T2.png" alt="Template 2" style="width:100%;max-width:300px">
+                    <img id="myImg3" src="T3.png" alt="Template 3" style="width:100%;max-width:300px"><br>
+                    <textarea type="text" name="Template Choice" placeholder="Number..." style="text-align:center; font-size:1rem; width:6rem; height:3rem;"></textarea>
+                </div>
+
+                <h3>Submit Your Headshot</h3>
+                <input type="file" name="Headshot Upload" class="headshotButton" size="xxxx" maxlength="xxxx" accept="xxxx"> <!--Headshot input-->
+
+                <h3>Submit Your Resume or Other File</h3>
+                <input type="file" name="File Upload" class="fileButtons" size="xxxx" maxlength="xxxx" accept="xxxx"><br> <!--File input-->
+
+                <span>
+                    <input type="submit" name="contactSubmit" value="Submit" class="submitButton3" style="width:auto;"> <!--Final submit button-->
+                </span>
+            </div>
+        </form>
+    </div>
+
+    <div id="myModal" class="modal1">
+        <span class="close">
+            &times;
+        </span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+
+    <script>
+        // Get the modal
+        var modal1 = document.getElementById("myModal");
+
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var img = document.getElementById("myImg");
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption");
+        img.onclick = function () {
+            modal1.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal1.style.display = "none";
+        }
+        // Get the modal
+        var modal1 = document.getElementById("myModal");
+
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var img = document.getElementById("myImg2");
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption");
+        img.onclick = function () {
+            modal1.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal1.style.display = "none";
+        }
+        // Get the modal
+        var modal1 = document.getElementById("myModal");
+
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var img = document.getElementById("myImg3");
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption");
+        img.onclick = function () {
+            modal1.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal1.style.display = "none";
+        }
     </script>
+</body>
+<script>
+    $(document).ready(function () {
+        var max_fields = 5; //maximum input boxes allowed
+        var wrapper1 = $(".input_fields_wrap1"); //Fields wrapper
+        var wrapper2 = $(".input_fields_wrap2"); //Fields wrapper
+        var wrapper3 = $(".input_fields_wrap3"); //Fields wrapper
+        var add_button1 = $(".submitButton2e"); //Add button ID
+        var add_button2 = $(".submitButton2p"); //Add button ID
+        var add_button3 = $(".submitButton2v"); //Add button ID
+
+        var x = 1; //initlal text box count
+        $(add_button1).click(function (e) { //on add input button click
+            e.preventDefault();
+            if (x < max_fields) { //max input box allowed
+                x++; //text box increment
+                $(wrapper1).append('<div><input class ="txtBox" type="text" name="mytext[]"/><a href="#" class="remove_field"><i class="fa fa-trash"></i></a></div>'); //add input box
+            }
+        });
+        $(add_button2).click(function (e) {
+            e.preventDefault();
+            if (x < max_fields) {
+                x++;
+                $(wrapper2).append('<div><input class ="txtBox" type="text" name="mytext[]"/><a href="#" class="remove_field"><i class="fa fa-trash"></i></a></div>');
+            }
+        });
+        $(add_button3).click(function (e) {
+            e.preventDefault();
+            if (x < max_fields) {
+                x++;
+                $(wrapper3).append('<div><input class ="txtBox" type="text" name="mytext[]"/><a href="#" class="remove_field"><i class="fa fa-trash"></i></a></div>');
+            }
+        });
+        $(wrapper1).on("click", ".remove_field", function (e) { //user click on remove text
+            e.preventDefault(); $(this).parent('div').remove(); x--;
+        })
+        $(wrapper2).on("click", ".remove_field", function (e) {
+            e.preventDefault(); $(this).parent('div').remove(); x--;
+        })
+        $(wrapper3).on("click", ".remove_field", function (e) {
+            e.preventDefault(); $(this).parent('div').remove(); x--;
+        })
+    });
+    document.body.onload = getElementById('id01');
+</script>
+
 </html>
