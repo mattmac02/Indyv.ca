@@ -16,7 +16,7 @@
 <body>
     <div class="navigationBar">
         <a onclick="document.location='index.html'"> <!--Hyperlink back to the homepage-->
-            Memo.me
+            Indyv.ca
         </a>
     </div>
     <section class="tester">
@@ -159,7 +159,7 @@
             </div>
         </form>
     </div>
-
+    
     <div id="myModal" class="modal1">
         <span class="close">
             &times;
@@ -169,10 +169,8 @@
     </div>
 
     <script>
-        // Get the modal
         var modal1 = document.getElementById("myModal");
 
-        // Get the image and insert it inside the modal - use its "alt" text as a caption
         var img = document.getElementById("myImg");
         var modalImg = document.getElementById("img01");
         var captionText = document.getElementById("caption");
@@ -182,17 +180,14 @@
             captionText.innerHTML = this.alt;
         }
 
-        // Get the <span> element that closes the modal
         var span = document.getElementsByClassName("close")[0];
 
-        // When the user clicks on <span> (x), close the modal
         span.onclick = function () {
             modal1.style.display = "none";
         }
-        // Get the modal
+
         var modal1 = document.getElementById("myModal");
 
-        // Get the image and insert it inside the modal - use its "alt" text as a caption
         var img = document.getElementById("myImg2");
         var modalImg = document.getElementById("img01");
         var captionText = document.getElementById("caption");
@@ -202,17 +197,14 @@
             captionText.innerHTML = this.alt;
         }
 
-        // Get the <span> element that closes the modal
         var span = document.getElementsByClassName("close")[0];
 
-        // When the user clicks on <span> (x), close the modal
         span.onclick = function () {
             modal1.style.display = "none";
         }
-        // Get the modal
+
         var modal1 = document.getElementById("myModal");
 
-        // Get the image and insert it inside the modal - use its "alt" text as a caption
         var img = document.getElementById("myImg3");
         var modalImg = document.getElementById("img01");
         var captionText = document.getElementById("caption");
@@ -222,30 +214,26 @@
             captionText.innerHTML = this.alt;
         }
 
-        // Get the <span> element that closes the modal
         var span = document.getElementsByClassName("close")[0];
 
-        // When the user clicks on <span> (x), close the modal
         span.onclick = function () {
             modal1.style.display = "none";
         }
-    </script>
-</body>
-<script>
+    
     $(document).ready(function () {
-        var max_fields = 5; //maximum input boxes allowed
+        var max_fields = 5; //Maximum input boxes allowed
         var wrapper1 = $(".input_fields_wrap1"); //Fields wrapper
-        var wrapper2 = $(".input_fields_wrap2"); //Fields wrapper
-        var wrapper3 = $(".input_fields_wrap3"); //Fields wrapper
+        var wrapper2 = $(".input_fields_wrap2"); 
+        var wrapper3 = $(".input_fields_wrap3"); 
         var add_button1 = $(".submitButton2e"); //Add button ID
-        var add_button2 = $(".submitButton2p"); //Add button ID
-        var add_button3 = $(".submitButton2v"); //Add button ID
+        var add_button2 = $(".submitButton2p"); 
+        var add_button3 = $(".submitButton2v"); 
 
-        var x = 1; //initlal text box count
-        $(add_button1).click(function (e) { //on add input button click
+        var x = 1; //Initlal text box count
+        $(add_button1).click(function (e) { //On add input button click
             e.preventDefault();
-            if (x < max_fields) { //max input box allowed
-                x++; //text box increment
+            if (x < max_fields) { //Max input box allowed
+                x++; //Text box increment
                 $(wrapper1).append('<div><input class ="txtBox" type="text" name="mytext[]"/><a href="#" class="remove_field"><i class="fa fa-trash"></i></a></div>'); //add input box
             }
         });
@@ -263,7 +251,8 @@
                 $(wrapper3).append('<div><input class ="txtBox" type="text" name="mytext[]"/><a href="#" class="remove_field"><i class="fa fa-trash"></i></a></div>');
             }
         });
-        $(wrapper1).on("click", ".remove_field", function (e) { //user click on remove text
+        //User click on remove text
+        $(wrapper1).on("click", ".remove_field", function (e) { 
             e.preventDefault(); $(this).parent('div').remove(); x--;
         })
         $(wrapper2).on("click", ".remove_field", function (e) {
@@ -275,5 +264,5 @@
     });
     document.body.onload = getElementById('id01');
 </script>
-
+</body>
 </html>

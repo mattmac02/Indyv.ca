@@ -284,76 +284,19 @@ input[type=submit], .formSection .submitButton3:hover {
 
 .modal {
     display: none;
-    /* Hidden by default */
     position: fixed;
-    /* Stay in place */
     z-index: 1;
-    /* Sit on top */
     left: 0;
     top: 0;
     width: 100%;
-    /* Full width */
     height: 100%;
-    /* Full height */
     overflow: auto;
-    /* Enable scroll if needed */
     background-color: #474e5d;
     padding-top: 50px;
 }
 
 .container6 h1 {
     margin-top: -3rem;
-}
-
-.checkmark__circle {
-    stroke-dasharray: 166;
-    stroke-dashoffset: 166;
-    stroke-width: 2;
-    stroke-miterlimit: 10;
-    stroke: #7ac142;
-    fill: none;
-    animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
-}
-
-.checkmark {
-    width: 56px;
-    height: 56px;
-    border-radius: 50%;
-    display: block;
-    stroke-width: 2;
-    stroke: #fff;
-    stroke-miterlimit: 10;
-    margin: 10% auto;
-    box-shadow: inset 0px 0px 0px #7ac142;
-    animation: fill .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both;
-}
-
-.checkmark__check {
-    transform-origin: 50% 50%;
-    stroke-dasharray: 48;
-    stroke-dashoffset: 48;
-    animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
-}
-
-@keyframes stroke {
-    100% {
-        stroke-dashoffset: 0;
-    }
-}
-
-@keyframes scale {
-    0%, 100% {
-        transform: none;
-    }
-    50% {
-        transform: scale3d(1.1, 1.1, 1);
-    }
-}
-
-@keyframes fill {
-    100% {
-        box-shadow: inset 0px 0px 0px 30px #7ac142;
-    }
 }
 
 .samples {
@@ -371,8 +314,6 @@ input[type=submit], .formSection .submitButton3:hover {
     transition: 0.3s;
 }
 
-/* Caption of Modal Image (Image Text) - Same Width as the Image */
-
 #caption {
     margin: auto;
     display: block;
@@ -388,39 +329,26 @@ input[type=submit], .formSection .submitButton3:hover {
     height: 150px;
 }
 
-/* Add Animation - Zoom in the Modal */
 
 .modal-content, #caption {
     animation-name: zoom;
     animation-duration: 0.6s;
 }
 
-/* The Modal (background) */
 
 .modal1 {
     display: none;
-    /* Hidden by default */
     position: fixed;
-    /* Stay in place */
     z-index: 1;
-    /* Sit on top */
     padding-top: 0.75rem;
-    /* Location of the box */
     left: 0;
     top: 0;
     width: 100%;
-    /* Full width */
     height: 100%;
-    /* Full height */
     overflow: auto;
-    /* Enable scroll if needed */
     background-color: rgb(0, 0, 0);
-    /* Fallback color */
     background-color: rgba(0, 0, 0, 0.9);
-    /* Black w/ opacity */
 }
-
-/* Modal Content (image) */
 
 .modal-content {
     margin: auto;
@@ -447,8 +375,6 @@ input[type=submit], .formSection .submitButton3:hover {
     }
 }
 
-/* The Close Button */
-
 .close {
     position: absolute;
     top: 15px;
@@ -464,8 +390,6 @@ input[type=submit], .formSection .submitButton3:hover {
     text-decoration: none;
     cursor: pointer;
 }
-
-/* 100% Image Width on Smaller Screens */
 
 @media only screen and (max-width: 700px) {
     .modal-content {
@@ -498,8 +422,6 @@ input[type=submit], .formSection .submitButton3:hover {
     }
 }
 
-/* 100% Image Width on Smaller Screens */
-
 @media only screen and (max-width: 700px) {
     .modal-content {
         width: 100%;
@@ -531,7 +453,6 @@ input[type=submit], .formSection .submitButton3:hover {
     }
 }
 
-/* 100% Image Width on Smaller Screens */
 
 @media only screen and (max-width: 700px) {
     .modal-content {
@@ -1430,14 +1351,10 @@ input[type=submit], .container2 .submitButton5:hover {
     user-select: none;
 }
 
-/* Position the "next button" to the right */
-
 .next {
     right: 0;
     border-radius: 0.125rem 0 0 0.125rem;
 }
-
-/* On hover, add a black background color with a little bit see-through */
 
 .prev:hover, .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
