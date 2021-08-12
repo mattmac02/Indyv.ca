@@ -1,6 +1,7 @@
 html {
     scroll-behavior: smooth;
     height: 100%;
+    max-width:100%;
 }
 
 body {
@@ -200,7 +201,7 @@ a:active {
     display: block;
     margin-top: -20rem;
     float: right;
-    z-index: 1;
+    z-index: 9999;
     width: 30rem;
     text-align: center;
     margin-right: 2rem;
@@ -282,6 +283,20 @@ a:active {
 
 input[type=text], .input_fields_wrap1 .txtBox, .input_fields_wrap2 .txtBox, .input_fields_wrap3 .txtBox {
     width: 100%;
+    padding: .85rem;
+}
+
+input[type=date], .input_fields_wrap1 .txtBox2 {
+    width: 40%;
+    border-radius:0.45rem;
+    margin-bottom:1rem;
+    float:left;
+    padding: .85rem;
+}
+
+input[type=date], .input_fields_wrap1 .txtBox3 {
+    width: 40%;
+    float:right;
     padding: .85rem;
 }
 
