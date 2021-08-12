@@ -125,7 +125,6 @@
                     <div class="input_fields_wrap3">
                         <input class="txtBox" type="text" name="Experience Time Period " size="100" placeholder="When did you start and finish this experience?">
                     </div>
-                    <div class="otherBox"></div>
                     <span>
                         <button class="submitButton2v">
                             <i class="fa fa-plus"></i>
@@ -235,7 +234,7 @@
             e.preventDefault();
             if (x < max_fields) { //Max input box allowed
                 x++; //Text box increment
-                $(wrapper1).append('<form name="Customer Information" method="POST" data-netlify="true"><div class="otherBox"><input class ="txtBox" type="text" placeholder="2nd boc"name="2nd box"/><a href="#" class="remove_field"><i class="fa fa-trash"></i></a></div></form>'); //add input box
+                $(wrapper1).append('<form name="Customer Information" method="POST" data-netlify="true"><div class="otherBox"><input class ="txtBox" type="text" placeholder="2nd boc"name="2nd box"/><a href="#" class="remove_field"><i class="fa fa-trash"></i></a></div><input type="submit" name="contactSubmit" value="Submit" class="submitButton3" style="width:auto;"></form>'); //add input box
             }
         });
         $(add_button2).click(function (e) {
