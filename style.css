@@ -346,6 +346,15 @@ input[type=submit], .formSection .submitButton3:hover {
     margin-bottom: 1.5rem;
 }
 
+.samples video {
+    text-align: center;
+    margin-left:4rem;
+}
+
+.samples img {
+    margin-right:-2rem;
+}
+
 .samples h3 {
     text-align: center;
 }
