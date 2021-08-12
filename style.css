@@ -286,19 +286,6 @@ input[type=text], .input_fields_wrap1 .txtBox, .input_fields_wrap2 .txtBox, .inp
     padding: .85rem;
 }
 
-input[type=date], .input_fields_wrap1 .txtBox2 {
-    width: 40%;
-    border-radius:0.45rem;
-    margin-bottom:1rem;
-    float:left;
-    padding: .85rem;
-}
-
-input[type=date], .input_fields_wrap1 .txtBox3 {
-    width: 40%;
-    float:right;
-    padding: .85rem;
-}
 
 input[type=text], .input_fields_wrap h3 {
     font-family: 'Raleway', sans-serif;
