@@ -11,14 +11,46 @@ body {
 
 /* Code for Homepage */
 
+.footer {
+    width:100%;
+    background-color: #2b2b2b;
+    padding:1rem;
+    margin-top:8rem;
+}
+
+.footer .material-icons {
+    font-size:12rem;
+    margin-top:-18rem;
+    margin-left:-22rem;
+    color:#7395AE;
+    border-radius:50%;
+    padding:1rem;
+}
+
+.footer h1 {
+    font-family: 'Raleway', sans-serif;
+    color:white;
+    text-align: center;
+}
+
+.footer .footerForm {
+    color:white;
+    margin-left:30%;
+    font-family: 'Raleway', sans-serif;
+}
+
+ .footer p {
+    color:white;
+    font-family: 'Raleway', sans-serif;
+    font-size:.9rem;
+}
+
 .navigationBar {
     background-color: #7395AE;
     margin-top: -0.625rem;
     padding-top: 1.563rem;
     padding-bottom: 1.563rem;
     padding-left: 1.563rem;
-    margin-left: -0.625rem;
-    margin-right: -0.625rem;
     width: 100%;
     z-index: 2;
     font-family: 'Raleway', sans-serif;
@@ -184,14 +216,6 @@ a:active {
 .secondSection {
     padding-bottom:5rem;
 }
-/* .secondSection {
-    background-image: url(sub.bround.png);
-    background-position:bottom;
-    height:700px;
-    margin-top:-12rem;
-    background-repeat:no-repeat;
-    border-radius:10px;
-} */
 
 .example {
     margin-top: 4rem;
