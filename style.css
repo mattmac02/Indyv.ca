@@ -97,6 +97,13 @@ a:active {
     text-align: center;
 }
 
+.tester .material-icons {
+    font-size:4rem;
+    margin-top:-2rem;
+    margin-left:2rem;
+    color:#7395AE;
+}
+
 .buttons .learnMoreButton {
     font-size: 1.25rem;
     font-family: 'Raleway', sans-serif;
