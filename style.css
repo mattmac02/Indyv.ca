@@ -317,6 +317,13 @@ input[type=text], .input_fields_wrap1 .txtBox, .input_fields_wrap2 .txtBox, .inp
     padding: .85rem;
 }
 
+.footer .footerForm .submitButton6 {
+    background-color:#7395AE;
+    margin-top:2rem;
+    font-size:1.25rem;
+    padding:.75rem 1.25rem;
+    margin-left:15rem;
+}
 
 input[type=text], .input_fields_wrap h3 {
     font-family: 'Raleway', sans-serif;
