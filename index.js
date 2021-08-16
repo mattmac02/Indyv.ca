@@ -74,7 +74,7 @@ $(document).ready(function () {
       e.preventDefault();
       if (x < max_fields) { //max input box allowed
           x++; //text box increment
-          $(wrapper1).append('<div class="input_fields_wrap1"><input class ="txtBox" type="text" placeholder=" Next education item..." name="2nd education box" /><a href="#" class="remove_field"><i class="fa fa-trash"></i></a></div>'); //add input box
+          $(wrapper1).append('<div><input class ="txtBox" type="text" placeholder=" Next education item..." name="2nd education box" /><a href="#" class="remove_field"><i class="fa fa-trash"></i></a></div>'); //add input box
       }
   });
   $(add_button2).click(function (e) {

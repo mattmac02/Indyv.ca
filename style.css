@@ -20,7 +20,7 @@ body {
 
 .footer .material-icons {
     font-size:12rem;
-    margin-top:-18rem;
+    margin-top:-22rem;
     margin-left:-22rem;
     color:#7395AE;
     border-radius:50%;
@@ -317,6 +317,107 @@ input[type=text], .input_fields_wrap1 .txtBox, .input_fields_wrap2 .txtBox, .inp
     padding: .85rem;
 }
 
+.formSection .container2 .personalInfo {
+    width:50%;
+    margin-left:25%;
+}
+
+.formSection .container2 .personalInfo .fname {
+    float:left;
+    width:20rem;
+}
+
+.formSection .container2  .personalInfo .mail  {
+    float:right;
+    width:20rem;
+    margin-top:-3.2rem;
+}
+
+.formSection .container2  .personalInfo .pnumber  {
+    float:left;
+    width:20rem;
+}
+
+.formSection .container2  .personalInfo .country  {
+    float:right;
+    width:20rem;
+    margin-top:-3.2rem;
+}
+
+.formSection .container2  .personalInfo .province  {
+    float:left;
+    width:20rem;
+}
+
+.formSection .container2  .personalInfo .city  {
+    float:right;
+    width:20rem;
+    margin-top:-2rem;
+}
+
+.formSection .container2 .personalInfo .fnameLabel{
+    float:left;
+    margin-left:7.4rem;
+}
+
+.formSection .container2 .personalInfo .emailLabel{
+    float:right;
+    margin-top:-3.6rem;
+    margin-right:7rem;
+}
+
+.formSection .container2 .personalInfo .pnumberLabel{
+    float:left;
+    margin-left:6.8rem;
+}
+
+.formSection .container2 .personalInfo .countryLabel{
+    float:right;
+    margin-top:-3.6rem;
+    margin-right:8.4rem;
+}
+
+.formSection .container2 .personalInfo .provinceLabel{
+    float:left;
+    margin-left:6.5rem;
+}
+
+.formSection .container2 .personalInfo .cityLabel{
+    float:right;
+    margin-top:-3.6rem;
+    margin-right:9.4rem;
+}
+
+.first {
+    padding:5rem;
+}
+
+.first .material-icons {
+    font-size:10rem;
+    border-radius:50%;
+    padding:2rem;
+    background-color: #7395AE;
+}
+
+.first .material-icons:hover {
+    opacity:0.1;
+}
+
+.first p {
+    opacity:0;
+}
+
+.first p:hover {
+    background-color:blue;
+    width:10rem;
+    margin-top:-10rem;
+    padding:2rem;
+    height:10rem;
+    border-radius:50%;
+    font-size:1.2rem;
+    opacity:1;
+}
+
 .footer .footerForm .submitButton6 {
     background-color:#7395AE;
     margin-top:2rem;
@@ -340,6 +441,7 @@ input[type=text], .input_fields_wrap h3 {
 input[type=submit], .formSection .submitButton3 {
     background-color: #04AA6D;
     color: white;
+    font-size:1.5rem;
     font-family: 'Raleway', sans-serif;
     padding: .75rem 1.25rem;
     border: none;

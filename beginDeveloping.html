@@ -35,43 +35,44 @@
     <div class="formSection">
         <form name="Customer Information" method="POST" data-netlify="true">
             <div class="container2">
-                <label for="fname">
+                <div class="personalInfo">
+                <label class="fnameLabel" for="fname">
                     Full Name
-                </label><br>
-                <input type="text" id="fname" name="Fullname" placeholder="Your full name..." style="text-align: center;"><br> <!--Full name input-->
+                </label><br><br>
+                <input type="text" class="fname" name="Full-name" placeholder="Your full name..." style="text-align: center;"><br> <!--Full name input-->
 
-                <label for="email">
+                <label class="emailLabel" for="email">
                     Email Address
-                </label><br>
-                <input type="text" name="Mail " placeholder="Your email address..." style="text-align: center;"><br> <!--Email input-->
+                </label><br><br>
+                <input type="text" class="mail" name="Email " placeholder="Your email address..." style="text-align: center;"><br> <!--Email input-->
 
-                <label for="pnumber">
+                <label class="pnumberLabel" for="pnumber">
                     Phone Number
-                </label><br>
-                <input type="text" id="pnumber" name="Phone number " placeholder="Your phone number..." style="text-align: center;"><br> <!--Phone number input-->
+                </label><br><br>
+                <input type="text" class="pnumber" name="Phone number " placeholder="Your phone number..." style="text-align: center;"><br> <!--Phone number input-->
 
-                <label for="country">
+                <label class="countryLabel" for="country">
                     Country
-                </label><br>
-                <input type="text" id="country" name="Country " placeholder="Your country..." style="text-align: center;"><br> <!--Country input-->
+                </label><br><br>
+                <input type="text" class="country" name="Country " placeholder="Your country..." style="text-align: center;"><br> <!--Country input-->
 
-                <label for="province">
+                <label class="provinceLabel" for="province">
                     Province / State
-                </label><br>
-                <input type="text" id="province" name="Province " placeholder="Your province / state..." style="text-align: center;"><br> <!--Province/State input-->
+                </label><br><br>
+                <input type="text" class="province" name="Province " placeholder="Your province / state..." style="text-align: center;"><br> <!--Province/State input-->
 
-                <label for="city">
+                <label class="cityLabel" for="city">
                     City
                 </label><br>
-                <input type="text" id="city" name="City " placeholder="Your city..." style="text-align: center;"><br> <!--City input-->
+                <input type="text" class="city" name="City " placeholder="Your city..." style="text-align: center;"><br> <!--City input-->
 
                 <div>
-                    <h2>
+                    <br><br><h2>
                         Personal Description
                     </h2>
                     <textarea type="text" name="Personal Description" placeholder="Write a short bio about yourself so people can get to know you personally..." style="width:35rem; height:8rem;"></textarea> <!--Personal bio input-->
                 </div>
-
+                </div>
                 <h1>
                     Education
                 </h1>
@@ -152,18 +153,18 @@
                     <textarea type="text" name="Template Choice" placeholder="Number..." style="text-align:center; font-size:1rem; width:6rem; height:3rem;margin-top:2rem;"></textarea>
                 </div>
 
-                <h3>Choose your colour palette!</h3>
+                <h2>Choose your colour palette!</h2>
                 <input type="color" id="color1" name="Colour 2" style="width:8rem;margin-right:2rem;" value="#ff0000">
                 <input type="color" name="Colour 1" style="width:8rem;" value="#0000ff">
 
-                <h3>Submit Your Headshot</h3>
+                <br><br><br><h2>Submit Your Headshot</h2>
                 <input type="file" name="Headshot Upload" class="headshotButton" size="xxxx" maxlength="xxxx" accept="xxxx"> <!--Headshot input-->
 
-                <h3>Submit Your Resume or Other File</h3>
+                <h2>Submit Your Resume or Other File</h2>
                 <input type="file" name="File Upload" class="fileButtons" size="xxxx" maxlength="xxxx" accept="xxxx"><br> <!--File input-->
 
                 <span>
-                    <input type="submit" name="contactSubmit" value="Submit" class="submitButton3" style="width:auto;"> <!--Final submit button-->
+                    <br><input type="submit" name="contactSubmit" value="Submit" class="submitButton3" style="width:auto;"> <!--Final submit button-->
                 </span>
             </div>
         </form>
@@ -177,5 +178,13 @@
         <div id="caption"></div>
     </div>
     <script src="index.js"></script>
+        <!-- <div class="first">
+            <i class="material-icons">
+                fingerprint
+            </i>
+            <p>
+                Enter your experiences
+            </p>
+        </div> -->
 </body>
 </html>
