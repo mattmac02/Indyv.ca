@@ -61,44 +61,45 @@ span.onclick = function () {
 }
 
 $(document).ready(function () {
-  var max_fields = 5; //maximum input boxes allowed
-  var wrapper1 = $(".input_fields_wrap1"); //Fields wrapper
-  var wrapper2 = $(".input_fields_wrap2"); //Fields wrapper
-  var wrapper3 = $(".input_fields_wrap3"); //Fields wrapper
-  var add_button1 = $(".submitButton2e"); //Add button ID
-  var add_button2 = $(".submitButton2p"); //Add button ID
-  var add_button3 = $(".submitButton2v"); //Add button ID
+    var wrapper1 = $(".infoFille"); //Fields wrapper
+    var wrapper2 = $(".infoFillp"); //Fields wrapper
+    var wrapper3 = $(".infoFillv"); //Fields wrapper
+    var add_button1 = $(".submitButton2e"); //Add button ID
+    var add_button2 = $(".submitButton2p"); //Add button ID
+    var add_button3 = $(".submitButton2v"); //Add button ID
 
-  var x = 1; //initlal text box count
-  $(add_button1).click(function (e) { //on add input button click
-      e.preventDefault();
-      if (x < max_fields) { //max input box allowed
-          x++; //text box increment
-          $(wrapper1).append('<div><input class ="txtBox" type="text" placeholder=" Next education item..." name="2nd education box" /><a href="#" class="remove_field"><i class="fa fa-trash"></i></a></div>'); //add input box
-      }
-  });
-  $(add_button2).click(function (e) {
-      e.preventDefault();
-      if (x < max_fields) {
-          x++;
-          $(wrapper2).append('<div><input class ="txtBox" type="text" placeholder="Next work item..." name="2nd work box"/><a href="#" class="remove_field"><i class="fa fa-trash"></i></a></div>');
-      }
-  });
-  $(add_button3).click(function (e) {
-      e.preventDefault();
-      if (x < max_fields) {
-          x++;
-          $(wrapper3).append('<div><input class ="txtBox" type="text" placeholder="Next extracurricular item..." name="2nd extracurricular box"/><a href="#" class="remove_field"><i class="fa fa-trash"></i></a></div>');
-      }
-  });
-  $(wrapper1).on("click", ".remove_field", function (e) { //user click on remove text
-      e.preventDefault(); $(this).parent('div').remove(); x--;
-  })
-  $(wrapper2).on("click", ".remove_field", function (e) {
-      e.preventDefault(); $(this).parent('div').remove(); x--;
-  })
-  $(wrapper3).on("click", ".remove_field", function (e) {
-      e.preventDefault(); $(this).parent('div').remove(); x--;
-  })
+    var x = 1; //initlal text box count
+    var y = 1;
+    var z = 1;
+    $(add_button1).click(function (e) { //on add input button click
+        e.preventDefault();
+        x++; //text box increment
+        if (x == 2) {
+            $(wrapper1).append('<form name="Customer Information" method="POST" data-netlify="true"><div class="infoFille2"><h1>School 2</h1><div class="input_fields_wrap1"><input class="txtBox" type="text" name="School Location 2" size="100" placeholder="Where did you go to school?"> </div><div class="input_fields_wrap1"><label style="margin-right:18rem;color:#7395AE;">Start Date</label><label style="color:#7395AE;">End Date</label><br><input class="txtBox" type="date" name="School start date 2" style="width:20rem;border-radius:.45rem;"placeholder="When did start and finish at this job?"><input type="date" class="txtBox" name="School end date 2" style="width:20rem;margin-left:1.1rem;border-radius:.45rem;margin-bottom:.8rem;"></div><div class="input_fields_wrap1"><input class="txtBox" type="text" name="School Awards " size="100" placeholder="Did you win any awards during your time at this school?"></div></div></form>');
+        }//add input box
+        else if (x == 3) {
+            $(wrapper1).append('<form name="Customer Information" method="POST" data-netlify="true"><div class="infoFille3"><h1>School 3</h1><div class="input_fields_wrap1"><input class="txtBox" type="text" name="School Location 3" size="100" placeholder="Where did you go to school?"> </div><div class="input_fields_wrap1"><label style="margin-right:18rem;color:#7395AE;">Start Date</label><label style="color:#7395AE;">End Date</label><br><input class="txtBox" type="date" name="School start date 3" style="width:20rem;border-radius:.45rem;"placeholder="When did start and finish at this job?"><input type="date" class="txtBox" name="School end date 3" style="width:20rem;margin-left:1.1rem;border-radius:.45rem;margin-bottom:.8rem;"></div><div class="input_fields_wrap1"><input class="txtBox" type="text" name="School Awards " size="100" placeholder="Did you win any awards during your time at this school?"></div></div></form>');
+        }
+    });
+    $(add_button2).click(function (e) {
+        e.preventDefault();
+        y++; //text box increment
+        if (y == 2) {
+            $(wrapper2).append('<form name="Customer Information" method="POST" data-netlify="true"><div class="infoFillp2"><h1>Experience 2</h1><div class="input_fields_wrap2"><input class="txtBox" type="text" name="Work Location 2" size="100" placeholder="Where did you work?"> </div><div class="input_fields_wrap2"><label style="margin-right:18rem;color:#7395AE;">Start Date</label><label style="color:#7395AE;">End Date</label><br><input class="txtBox" type="date" name="Work start date 2" style="width:20rem;border-radius:.45rem;"placeholder="When did start and finish at this job?"><input type="date" class="txtBox" name="Work end date 2" style="width:20rem;margin-left:1.1rem;border-radius:.45rem;margin-bottom:.8rem;"></div><div class="input_fields_wrap2"><input class="txtBox" type="text" name="School Awards " size="100" placeholder="What was your job title and responsibilities at this company"></div></div></form>');
+        }//add input box
+        else if (y == 3) {
+            $(wrapper2).append('<form name="Customer Information" method="POST" data-netlify="true"><div class="infoFillp3"><h1>Experience 3</h1><div class="input_fields_wrap2"><input class="txtBox" type="text" name="Work Location 3" size="100" placeholder="Where did you work?"> </div><div class="input_fields_wrap2"><label style="margin-right:18rem;color:#7395AE;">Start Date</label><label style="color:#7395AE;">End Date</label><br><input class="txtBox" type="date" name="Work start date 3" style="width:20rem;border-radius:.45rem;"placeholder="When did start and finish at this job?"><input type="date" class="txtBox" name="Work end date 3" style="width:20rem;margin-left:1.1rem;border-radius:.45rem;margin-bottom:.8rem;"></div><div class="input_fields_wrap2"><input class="txtBox" type="text" name="School Awards " size="100" placeholder="What was your job title and responsibilities at this company?"></div></div></form>');
+        }
+    });
+    $(add_button3).click(function (e) {
+        e.preventDefault();
+        z++; //text box increment
+        if (z == 2) {
+            $(wrapper3).append('<form name="Customer Information" method="POST" data-netlify="true"><div class="infoFillv2"><h1>Experience 2</h1><div class="input_fields_wrap3"><input class="txtBox" type="text" name="Extracurricular Experience 2" size="100" placeholder="What was the experience?"></div><div class="input_fields_wrap3"><label style="margin-right:18rem;color:#7395AE;">Start Date</label><label style="color:#7395AE;">EndDate</label><br><input class="txtBox" type="date" name="Volunteer start date 2" style="width:20rem;border-radius:.45rem;"placeholder="When did start and finish at this school?"><input type="date" class="txtBox"name="Volunteer end date 2" style="width:20rem;margin-left:1.1rem;border-radius:.45rem;margin-bottom:.8rem;"></div><div class="input_fields_wrap3"><input class="txtBox" type="text" name="School Awards " size="100" placeholder="What was your role and responsibilities in this experience?"></div></div></form>');
+        }//add input box
+        else if (z == 3) {
+            $(wrapper3).append('<form name="Customer Information" method="POST" data-netlify="true"><div class="infoFillv3"><h1>Experience 3</h1><div class="input_fields_wrap3"><input class="txtBox" type="text" name="Extracurricular Experience 3" size="100" placeholder="What was the experience?"> </div><div class="input_fields_wrap3"><label style="margin-right:18rem;color:#7395AE;">Start Date</label><label style="color:#7395AE;">EndDate</label><br><input class="txtBox" type="date" name="Volunteer start date 3" style="width:20rem;border-radius:.45rem;"placeholder="When did start and finish at this school?"><input type="date" class="txtBox"name="Volunteer end date 3" style="width:20rem;margin-left:1.1rem;border-radius:.45rem;margin-bottom:.8rem;"></div><div class="input_fields_wrap3"><input class="txtBox" type="text" name="School Awards " size="100" placeholder="What was your role and responsibilities in this experience?"></div></div></form>');
+        }
+    });
 });
 document.body.onload = getElementById('id01');
