@@ -19,6 +19,13 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function () {
     modal1.style.display = "none";
 }
+
+var modal1 = document.querySelector('.modal')
+window.addEventListener('keydown', function (event) {
+  if (event.key === 'Escape') {
+    modal1.style.display = 'none'
+  }
+})
 // Get the modal
 var modal1 = document.getElementById("myModal");
 
