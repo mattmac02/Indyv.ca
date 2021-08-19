@@ -461,8 +461,6 @@ a:active {
     margin-top: -3rem;
 }
 
-
-
 .infoFill h3 {
     color: white;
     font-family: 'Raleway', sans-serif;
@@ -477,6 +475,16 @@ a:active {
 input[type=text], .input_fields_wrap1 .txtBox, .input_fields_wrap2 .txtBox, .input_fields_wrap3 .txtBox {
     width: 100%;
     padding: .85rem;
+}
+
+.input_fields_wrap1 .txtBox1, .input_fields_wrap2 .txtBox1, .input_fields_wrap3 .txtBox1  {
+    width:50%;
+    border-radius:.45rem;
+    padding:.85rem;
+    margin-bottom:.8rem;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .formSection .container2 .personalInfo {
