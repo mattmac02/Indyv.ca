@@ -160,13 +160,21 @@ a:active {
     clip-path: polygon(0 0, 45% 0, 25% 45%, 0 100%);
 }
 
+.secondSection {
+    width:100%;
+}
+
+/* .secondSection .easyAccess {
+    margin-left:25%;
+} */
+
 .secondSection .easyAccess .howBox {
     background-color: #f0f2f2;
     width: 20rem;
     box-shadow: -1px 5px 15px 5px rgba(0, 0, 0, 0.13);
     text-align: center;
     font-family: 'Raleway', sans-serif;
-    margin-left: 15rem;
+    margin-left: 25%;
     line-height: 2.5rem;
     border-radius: 0.75rem;
     padding: 2rem;
@@ -175,7 +183,7 @@ a:active {
 .gearLogo .fa-gears {
     margin-top: -23rem;
     font-size: 18rem;
-    margin-left: 47rem;
+    margin-left: 57.5%;
     color: #2b2b2b;
 }
 
@@ -183,14 +191,14 @@ a:active {
     margin-top: -23rem;
     border-color: solid black;
     font-size: 18rem;
-    margin-left: 52rem;
+    margin-left: 62.5%;
     color: #2b2b2b;
 }
 
 .chartLogo .fa-line-chart {
     margin-top: -23rem;
     font-size: 18rem;
-    margin-left: 17rem;
+    margin-left: 27.5%;
     color: #2b2b2b;
 }
 
@@ -200,7 +208,7 @@ a:active {
     box-shadow: -1px 5px 15px 5px rgba(0, 0, 0, 0.13);
     text-align: center;
     font-family: 'Raleway', sans-serif;
-    margin-left: 45rem;
+    margin-left: 55%;
     line-height: 2.5rem;
     border-radius: .75rem;
     padding: 2rem;
@@ -212,7 +220,7 @@ a:active {
     box-shadow: -1px 5px 15px 5px rgba(0, 0, 0, 0.13);
     text-align: center;
     font-family: 'Raleway', sans-serif;
-    margin-left: 15rem;
+    margin-left: 25%;
     line-height: 2.5rem;
     border-radius: .75rem;
     padding: 2rem;
@@ -224,6 +232,7 @@ a:active {
 
 .example {
     margin-top: 4rem;
+    width:100%;
 }
 
 .example p {
@@ -231,9 +240,9 @@ a:active {
     margin-top: -20rem;
     float: right;
     z-index: 9999;
-    width: 30rem;
+    width: 35%;
     text-align: center;
-    margin-right: 2rem;
+    margin-right: 1%;
     font-family: 'Raleway', sans-serif;
     font-size: 2.2rem;
     border-radius: .6rem;
@@ -248,8 +257,8 @@ a:active {
 .example img {
     display: block;
     height: auto;
-    margin-left: -2rem;
-    width: 50rem;
+    margin-left: -2%;
+    width: 55%;
 }
 
 /* Code for Begin Developing Page */
@@ -316,9 +325,38 @@ a:active {
     border-radius:.45rem;
     background-color: #f0f2f2;
 }
+
+.images {
+    width:100%;
+}
+
+.images #myImg {
+    margin-left:2%;
+    width:20%
+}
+
+.images #myImg2 {
+    margin-left:2%;
+    width:20%
+}
+
+.images #myImg3 {
+    margin-left:2%;
+    width:20%;
+}
+
+.images video {
+    margin-left:2%;
+    width:20%;
+}
+
+.radioButtons {
+    width:100%;
+}
+
 .template1Button {
     float:left;
-    margin-left:11rem;
+    margin-left:16.8%;
     margin-top:3rem;
     width:1.5rem;
     height:1.5rem;
@@ -328,13 +366,13 @@ a:active {
     float:left;
     width:1.5rem;
     height:1.5rem;
-    margin-left:19.5rem;
+    margin-left:20.3%;
     margin-top:3rem;
 }
 
 .template3Button {
     float:left;
-    margin-left:19.5rem;
+    margin-left:20.3%;
     width:1.5rem;
     height:1.5rem;
     margin-top:3rem;
@@ -342,7 +380,7 @@ a:active {
 
 .template4Button {
     float:left;
-    margin-left:19.5rem;
+    margin-left:20.3%;
     width:1.5rem;
     height:1.5rem;
     margin-top:3rem;
@@ -613,15 +651,6 @@ input[type=submit], .formSection .submitButton3:hover {
     margin-bottom: 1.5rem;
 }
 
-.samples video {
-    text-align: center;
-    margin-left: 4rem;
-}
-
-.samples img {
-    margin-right: -2rem;
-}
-
 .samples h3 {
     text-align: center;
 }
@@ -716,7 +745,6 @@ input[type=submit], .formSection .submitButton3:hover {
 #myImg2 {
     border-radius: 5px;
     cursor: pointer;
-    margin-left: 4rem;
     transition: 0.3s;
 }
 
@@ -747,7 +775,6 @@ input[type=submit], .formSection .submitButton3:hover {
 #myImg3 {
     border-radius: 5px;
     cursor: pointer;
-    margin-left: 4rem;
     transition: 0.3s;
 }
 
