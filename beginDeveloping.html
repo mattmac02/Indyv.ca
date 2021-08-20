@@ -238,9 +238,9 @@ var br = document.createElement("br");
 function GFG_Fun() {
             
 // Create a form synamically
-form1.setAttribute("method", "POST");
-form1.setAttribute("data-netlify", "true");
-form1.setAttribute("name", "Tester Form");
+form.setAttribute("method", "POST");
+form.setAttribute("data-netlify", "true");
+form.setAttribute("name", "Tester Form");
 
 // Create an input element for Full Name
 var FN = document.createElement("input");
@@ -278,32 +278,32 @@ RPWD.setAttribute("placeholder", "ReEnter Password");
             s.setAttribute("value", "Submit");
             
             // Append the full name input to the form
-            form1.appendChild(FN);
+            form.appendChild(FN);
             
             // Inserting a line break
-            form1.appendChild(br.cloneNode());
+            form.appendChild(br.cloneNode());
             
             // Append the DOB to the form
-            form1.appendChild(DOB);
-            form1.appendChild(br.cloneNode());
+            form.appendChild(DOB);
+            form.appendChild(br.cloneNode());
             
             // Append the emailID to the form
-            form1.appendChild(EID);
-            form1.appendChild(br.cloneNode());
+            form.appendChild(EID);
+            form.appendChild(br.cloneNode());
             
             // Append the Password to the form
-            form1.appendChild(PWD);
-            form1.appendChild(br.cloneNode());
+            form.appendChild(PWD);
+            form.appendChild(br.cloneNode());
             
             // Append the ReEnterPassword to the form
-            form1.appendChild(RPWD);
-            form1.appendChild(br.cloneNode());
+            form.appendChild(RPWD);
+            form.appendChild(br.cloneNode());
             
             // Append the submit button to the form
-            form1.appendChild(s);
+            form.appendChild(s);
 
             document.getElementsByTagName("body")[0]
-        .appendChild(form1);
+        .appendChild(form);
         }
     </script>
     </form>
