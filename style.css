@@ -609,12 +609,17 @@ input[type=text], .input_fields_wrap h3 {
     cursor: pointer;
 }
 
+.boot {
+    color:orange;
+}
+
 input[type=submit], .formSection .submitButton3 {
     background-color: #04AA6D;
     color: white;
     font-size: 1.5rem;
     font-family: 'Raleway', sans-serif;
     padding: .75rem 1.25rem;
+    margin-bottom:3rem;
     border: none;
     border-radius: .25rem;
     cursor: pointer;

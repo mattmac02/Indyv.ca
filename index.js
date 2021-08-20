@@ -68,6 +68,39 @@ span.onclick = function () {
     modal1.style.display = "none";
 }
 
+// function myFunction() {
+//     var xbut = getElementById("subBut");
+//     if (xbut.style.display=="none"){
+//         xbut.style.display="block";
+//     } else {
+//         xbut.style.display="none";
+//     }
+// }
+
+// var down = document.getElementById("GFG_DOWN");
+// var form = document.createElement("form");
+// form.setAttribute("method", "post");
+// form.setAttribute("data-netlify", "true");
+
+// var FN = document.createElement("input");
+// FN.setAttribute("type", "text");
+// FN.setAttribute("name", "FullName");
+// FN.setAttribute("placeholder", "Full Name");
+
+// var DOB = document.createElement("input");
+// DOB.setAttribute("type", "text");
+// DOB.setAttribute("name", "dob");
+// DOB.setAttribute("placeholder", "DOB");
+
+// var s = document.createElement("input");
+// s.setAttribute("type", "submit");
+// s.setAttribute("value", "Submit");
+// form.appendChild(FN); 
+// form.appendChild(DOB); 
+// form.appendChild(br.cloneNode()); 
+
+
+
 $(document).ready(function () {
     var wrapper1 = $(".infoFille"); //Fields wrapper
     var wrapper2 = $(".infoFillp"); //Fields wrapper
