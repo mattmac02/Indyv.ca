@@ -161,7 +161,7 @@ a:active {
 }
 
 .secondSection {
-    width:100%;
+    width: 100%;
 }
 
 /* .secondSection .easyAccess {
@@ -232,7 +232,7 @@ a:active {
 
 .example {
     margin-top: 4rem;
-    width:100%;
+    width: 100%;
 }
 
 .example p {
@@ -315,100 +315,100 @@ a:active {
 
 .toolTipe .toolTipeText {
     visibility: hidden;
-    margin-left:2.5rem;
+    margin-left: 2.5rem;
     line-height: 2rem;
     box-shadow: -1px 5px 15px 5px rgba(0, 0, 0, 0.25);
     width: 18rem;
     position: absolute;
     color: black;
-    padding:1rem;
-    border-radius:.45rem;
+    padding: 1rem;
+    border-radius: .45rem;
     background-color: #f0f2f2;
 }
 
 .images {
-    width:100%;
+    width: 100%;
 }
 
 .images #myImg {
-    margin-left:2%;
-    width:20%
+    margin-left: 2%;
+    width: 20%
 }
 
 .images #myImg2 {
-    margin-left:2%;
-    width:20%
+    margin-left: 2%;
+    width: 20%
 }
 
 .images #myImg3 {
-    margin-left:2%;
-    width:20%;
+    margin-left: 2%;
+    width: 20%;
 }
 
 .images video {
-    margin-left:2%;
-    width:20%;
+    margin-left: 2%;
+    width: 20%;
 }
 
 .radioButtons {
-    width:100%;
+    width: 100%;
 }
 
 .template1Button {
-    float:left;
-    margin-left:16.8%;
-    margin-top:3rem;
-    width:1.5rem;
-    height:1.5rem;
+    float: left;
+    margin-left: 16.8%;
+    margin-top: 3rem;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 .template2Button {
-    float:left;
-    width:1.5rem;
-    height:1.5rem;
-    margin-left:20.3%;
-    margin-top:3rem;
+    float: left;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 20.3%;
+    margin-top: 3rem;
 }
 
 .template3Button {
-    float:left;
-    margin-left:20.3%;
-    width:1.5rem;
-    height:1.5rem;
-    margin-top:3rem;
+    float: left;
+    margin-left: 20.3%;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 3rem;
 }
 
 .template4Button {
-    float:left;
-    margin-left:20.3%;
-    width:1.5rem;
-    height:1.5rem;
-    margin-top:3rem;
+    float: left;
+    margin-left: 20.3%;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 3rem;
 }
 
 .toolTipp .toolTippText {
     visibility: hidden;
-    margin-left:2.5rem;
+    margin-left: 2.5rem;
     line-height: 2rem;
     box-shadow: -1px 5px 15px 5px rgba(0, 0, 0, 0.25);
     width: 18rem;
     position: absolute;
     color: black;
-    padding:1rem;
-    border-radius:.45rem;
+    padding: 1rem;
+    border-radius: .45rem;
     background-color: #f0f2f2;
 }
 
 .toolTipv .toolTipvText {
     visibility: hidden;
-    margin-left:2.5rem;
+    margin-left: 2.5rem;
     line-height: 2rem;
     box-shadow: -1px 5px 15px 5px rgba(0, 0, 0, 0.25);
     width: 18rem;
     position: absolute;
     color: black;
-    padding:1rem;
-    border-radius:.45rem;
+    padding: 1rem;
+    border-radius: .45rem;
     background-color: #f0f2f2;
 }
 
@@ -477,11 +477,11 @@ input[type=text], .input_fields_wrap1 .txtBox, .input_fields_wrap2 .txtBox, .inp
     padding: .85rem;
 }
 
-.input_fields_wrap1 .txtBox1, .input_fields_wrap2 .txtBox1, .input_fields_wrap3 .txtBox1  {
-    width:50%;
-    border-radius:.45rem;
-    padding:.85rem;
-    margin-bottom:.8rem;
+.input_fields_wrap1 .txtBox1, .input_fields_wrap2 .txtBox1, .input_fields_wrap3 .txtBox1 {
+    width: 50%;
+    border-radius: .45rem;
+    padding: .85rem;
+    margin-bottom: .8rem;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     text-transform: uppercase;
@@ -605,12 +605,12 @@ input[type=text], .input_fields_wrap h3 {
     font-size: 1.2rem;
     border-radius: 0.375rem;
     padding: .7rem;
-    bottom:0;
+    bottom: 0;
     cursor: pointer;
 }
 
 .boot {
-    color:orange;
+    color: orange;
 }
 
 input[type=submit], .formSection .submitButton3 {
@@ -619,7 +619,7 @@ input[type=submit], .formSection .submitButton3 {
     font-size: 1.5rem;
     font-family: 'Raleway', sans-serif;
     padding: .75rem 1.25rem;
-    margin-bottom:3rem;
+    margin-bottom: 3rem;
     border: none;
     border-radius: .25rem;
     cursor: pointer;
@@ -952,14 +952,14 @@ input[type=submit], .formSection .submitButton3:hover {
 
 .edTitle {
     font-family: 'Raleway', sans-serif;
-    font-weight:900;
-    margin-bottom:1rem;
-    margin-top:4rem;
-    text-align:center;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    margin-top: 4rem;
+    text-align: center;
 }
 
 .edTitle .material-icons {
-    font-size:3rem;
+    font-size: 3rem;
     color: #13262F;
 }
 
@@ -985,21 +985,21 @@ input[type=submit], .formSection .submitButton3:hover {
 
 .addTitle {
     font-family: 'Raleway', sans-serif;
-    font-weight:900;
-    margin-bottom:1rem;
-    margin-top:4rem;
-    text-align:center;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    margin-top: 4rem;
+    text-align: center;
 }
 
 .addTitle .fa-address-book {
-    font-size:3rem;
+    font-size: 3rem;
     color: #13262F;
 }
 
 .addSection .addText ul {
     margin-left: 5rem;
     height: 6rem;
-    margin-top:-5rem;
+    margin-top: -5rem;
     padding-top: 3rem;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -1014,10 +1014,10 @@ input[type=submit], .formSection .submitButton3:hover {
 
 .workTitle {
     font-family: 'Raleway', sans-serif;
-    margin-bottom:1rem;
-    margin-top:4rem;
-    font-weight:900;
-    text-align:center;
+    margin-bottom: 1rem;
+    margin-top: 4rem;
+    font-weight: 900;
+    text-align: center;
 }
 
 .workTitle .material-icons {
@@ -1043,10 +1043,10 @@ input[type=submit], .formSection .submitButton3:hover {
 
 .extraTitle {
     font-family: 'Raleway', sans-serif;
-    font-weight:900;
-    margin-top:4rem;
-    margin-bottom:1rem;
-    text-align:center;
+    font-weight: 900;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    text-align: center;
 }
 
 .extraTitle .fa-group {
@@ -1075,30 +1075,29 @@ input[type=submit], .formSection .submitButton3:hover {
     font-family: 'Raleway', sans-serif;
     font-size: 1.5rem;
     margin: 0;
-    margin-top:4rem;
+    margin-top: 4rem;
 }
 
 .container .tlabel1 {
-    margin-left:46.8%;
+    margin-left: 46.8%;
 }
 
 .container .tlabel2 {
-    margin-left:46%;
+    margin-left: 46%;
 }
 
 .container .tlabel3 {
-    margin-left:47.5%;
+    margin-left: 47.5%;
 }
 
-
 .container .fname {
-    width:45%;
-    margin-left:28%;
+    width: 45%;
+    margin-left: 28%;
 }
 
 .container textarea {
     width: 45%;
-    margin-left:28%;
+    margin-left: 28%;
     font-family: 'Raleway', sans-serif;
     padding: 0.75rem;
     border: 0.063rem solid #ccc;
@@ -1115,7 +1114,7 @@ input[type=submit], .formSection .submitButton3:hover {
     font-family: 'Raleway', sans-serif;
     padding: .75rem 1.25rem;
     border: none;
-    margin-left:45.5%;
+    margin-left: 45.5%;
     border-radius: .25rem;
     cursor: pointer;
 }
@@ -1316,17 +1315,16 @@ input[type=submit], .container2 .submitButton5:hover {
 
 .edTitle2 {
     font-family: 'Raleway', sans-serif;
-    font-weight:900;
-    margin-top:4rem;
-    margin-bottom:1rem;
-    text-align:center;
+    font-weight: 900;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    text-align: center;
 }
 
 .edTitle2 .material-icons {
     font-size: 3rem;
     color: #562C2C;
 }
-
 
 .workSection2 .workText2 ul {
     margin-left: 5rem;
@@ -1346,10 +1344,10 @@ input[type=submit], .container2 .submitButton5:hover {
 
 .workTitle2 {
     font-family: 'Raleway', sans-serif;
-    font-weight:900;
-    margin-top:4rem;
-    margin-bottom:1rem;
-    text-align:center;
+    font-weight: 900;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    text-align: center;
 }
 
 .workTitle2 .material-icons {
@@ -1357,13 +1355,12 @@ input[type=submit], .container2 .submitButton5:hover {
     color: #562C2C;
 }
 
-
 .extraTitle2 {
     font-family: 'Raleway', sans-serif;
-    font-weight:900;
-    margin-top:4rem;
-    margin-bottom:1rem;
-    text-align:center;
+    font-weight: 900;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    text-align: center;
 }
 
 .extraTitle2 .fa-group {
@@ -1393,21 +1390,21 @@ input[type=submit], .container2 .submitButton5:hover {
 
 .addTitle2 {
     font-family: 'Raleway', sans-serif;
-    font-weight:900;
-    margin-bottom:1rem;
-    margin-top:4rem;
-    text-align:center;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    margin-top: 4rem;
+    text-align: center;
 }
 
 .addTitle2 .fa-address-book {
-    font-size:3rem;
+    font-size: 3rem;
     color: #562C2C;
 }
 
 .addSection2 .addText2 ul {
     margin-left: 5rem;
     height: 6rem;
-    margin-top:-5rem;
+    margin-top: -5rem;
     padding-top: 3rem;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -1536,7 +1533,7 @@ input[type=submit], .container2 .submitButton5:hover {
 .logo1-4 .material-icons {
     font-size: 21.875rem;
     margin-left: 10.5rem;
-    margin-top:6rem;
+    margin-top: 6rem;
     color: #49393B;
 }
 
@@ -1573,7 +1570,7 @@ input[type=submit], .container2 .submitButton5:hover {
 
 .curricSection3 .curricText3 ul {
     margin-left: 40rem;
-    margin-top:-4rem;
+    margin-top: -4rem;
     height: 12rem;
     padding-top: 4rem;
     padding-bottom: 35rem;
@@ -1597,7 +1594,7 @@ input[type=submit], .container2 .submitButton5:hover {
 
 .schoolSection3 .schoolText3 ul {
     margin-left: 40rem;
-    margin-top:-4rem;
+    margin-top: -4rem;
     height: 12rem;
     padding-top: 4rem;
     padding-bottom: 10rem;
