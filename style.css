@@ -438,9 +438,9 @@ a:active {
     margin-bottom: 1rem;
 }
 
-.infoFille2, .infoFillp2, .infoFillv2 {
+#infoFille2, #infoFillp2, #infoFillv2 {
     display: inline-block;
-    width: 100%;
+    width: 55%;
     font-family: 'Raleway', sans-serif;
     padding: 1.5rem;
     background-color: #181a1d;
@@ -449,9 +449,9 @@ a:active {
     box-sizing: border-box;
 }
 
-.infoFille3, .infoFillp3, .infoFillv3 {
+#infoFille3, #infoFillp3, #infoFillv3 {
     display: inline-block;
-    width: 100%;
+    width: 55%;
     font-family: 'Raleway', sans-serif;
     padding: 1.5rem;
     background-color: #181a1d;
@@ -601,7 +601,15 @@ input[type=text], .input_fields_wrap h3 {
     text-align: center;
 }
 
-.submitButton2e, .submitButton2p, .submitButton2v {
+#submitButton2e, #submitButton2p, #submitButton2v {
+    font-size: 1.2rem;
+    border-radius: 0.375rem;
+    padding: .7rem;
+    bottom: 0;
+    cursor: pointer;
+}
+
+#submitButton2e2, #submitButton2p2, #submitButton2v2 {
     font-size: 1.2rem;
     border-radius: 0.375rem;
     padding: .7rem;
@@ -1795,7 +1803,6 @@ input[type=submit], .container2 .submitButton5:hover {
     cursor: pointer;
     position: absolute;
     top: 66rem;
-    ;
     width: auto;
     margin-top: -1.375rem;
     padding: 1rem;

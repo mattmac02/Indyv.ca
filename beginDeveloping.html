@@ -91,7 +91,7 @@
                 </div>
 
                 <!--School inputs-->
-
+                <div id="edu">
                 <div class="infoFille">
                     <div class="toolTipe">
                         <span class="fa fa-info-circle"></span>
@@ -117,12 +117,66 @@
                         <input class="txtBox" type="text" name="School Awards " size="100"
                             placeholder="Did you win any awards during your time at this school?">
                     </div>
-                    <span><button class="submitButton2e">
+                    <span><button type="button" id="submitButton2e">
                             <!--Add text box button-->
                             <i class="fa fa-plus"></i> Add another item
                         </button>
                     </span>
                 </div>
+                <div id="infoFille2">
+                    <h1>School 2</h1>
+                    <div class="input_fields_wrap1"><input class="txtBox" type="text" name="School Location 2" size="100"
+                            placeholder="Where did you go to school?"> </div>
+                    <div class="input_fields_wrap1"><label style="margin-right:18rem;color:#7395AE;">Start Date</label><label
+                            style="color:#7395AE;margin-right:3rem;">End Date</label><br><input class="txtBox1" type="date"
+                            name="School start date 2" placeholder="When did start and finish at this job?"><input type="date"
+                            class="txtBox1" name="School end date 2"></div>
+                    <div class="input_fields_wrap1"><input class="txtBox" type="text" name="School Awards " size="100"
+                            placeholder="Did you win any awards during your time at this school?"></div>
+                            <span><button type="button" id="submitButton2e2">
+                                <!--Add text box button-->
+                                <i class="fa fa-plus"></i> Add another item
+                            </button>
+                        </span>
+                </div>
+                <div id="infoFille3">
+                    <h1>School 3</h1>
+                    <div class="input_fields_wrap1"><input class="txtBox" type="text" name="School Location 3" size="100"
+                            placeholder="Where did you go to school?"> </div>
+                    <div class="input_fields_wrap1"><label style="margin-right:18rem;color:#7395AE;">Start Date</label><label
+                            style="color:#7395AE;margin-right:3rem;">End Date</label><br><input class="txtBox1" type="date"
+                            name="School start date 3" placeholder="When did start and finish at this job?"><input type="date"
+                            class="txtBox1" name="School end date 3"></div>
+                    <div class="input_fields_wrap1"><input class="txtBox" type="text" name="School Awards " size="100"
+                            placeholder="Did you win any awards during your time at this school?"></div>
+                </div>
+                </div>
+
+                <script>
+                    const targetDiv2 = document.getElementById("infoFille2");
+                    const targetDiv3 = document.getElementById("infoFille3");
+                    const btn1 = document.getElementById("submitButton2e");
+                    const btn2 = document.getElementById("submitButton2e2");
+                    const btn3 = document.getElementById("submitButton2e3");
+                    targetDiv2.style.display = "none";
+                    targetDiv3.style.display = "none";
+                    btn1.onclick = function () {
+                        if (targetDiv2.style.display == "none") {
+                            targetDiv2.style.display = "block";
+                            btn1.style.display="none";
+                            btn2.style.display="block";
+                        }
+                    }
+                    btn2.onclick = function(){
+                        if (targetDiv3.style.display == "none") {
+                            targetDiv3.style.display = "block";
+                            btn2.style.display="none";
+                        }
+                    };</script>
+
+
+
+
 
                 <!--Work inputs-->
                 <div class="infoFillp">
@@ -254,6 +308,106 @@
         <div id="caption"></div>
     </div>
     <script src="index.js"></script>
+<!-- 
+    <div id="infoFillv2">
+        <div class="toolTipv">
+            <span class="fa fa-info-circle"></span>
+            <span class="toolTipvText">Ensure you highlight the experiences that you played a significant
+                role in. The more responsibility, the more impressive the experience!</span>
+        </div>
+        <h1>
+            Extracurricular and Leadership Experience
+        </h1>
+        <div class="input_fields_wrap3">
+            <input class="txtBox" type="text" name="Extracurricular Experience " size="100"
+                placeholder="What was the experience?">
+        </div>
+        <div class="input_fields_wrap3">
+            <label style="margin-right:18rem;color:#7395AE;">Start Date</label><label
+                style="color:#7395AE;margin-right:3rem;">End
+                Date</label><br>
+            <input class="txtBox1" type="date" name="Extracurricular start date 1"
+                placeholder="When did start and finish at this school?"><input type="date" class="txtBox1"
+                name="Extracurricular end date 1">
+        </div>
+        <div class="input_fields_wrap3">
+            <input class="txtBox" type="text" name="Experience Role" size="100"
+                placeholder="What was your role and responsibilities in this experience?">
+        </div>
+        <div class="otherBox"></div>
+        <span>
+            <button id="submitButton2v2">
+                <i class="fa fa-plus"></i> Add another item
+            </button>
+        </span>
+    </div>
+    <div id="infoFillv3">
+        <div class="toolTipv">
+            <span class="fa fa-info-circle"></span>
+            <span class="toolTipvText">Ensure you highlight the experiences that you played a significant
+                role in. The more responsibility, the more impressive the experience!</span>
+        </div>
+        <h1>
+            Extracurricular and Leadership Experience
+        </h1>
+        <div class="input_fields_wrap3">
+            <input class="txtBox" type="text" name="Extracurricular Experience " size="100"
+                placeholder="What was the experience?">
+        </div>
+        <div class="input_fields_wrap3">
+            <label style="margin-right:18rem;color:#7395AE;">Start Date</label><label
+                style="color:#7395AE;margin-right:3rem;">End
+                Date</label><br>
+            <input class="txtBox1" type="date" name="Extracurricular start date 1"
+                placeholder="When did start and finish at this school?"><input type="date" class="txtBox1"
+                name="Extracurricular end date 1">
+        </div>
+        <div class="input_fields_wrap3">
+            <input class="txtBox" type="text" name="Experience Role" size="100"
+                placeholder="What was your role and responsibilities in this experience?">
+        </div>
+        <div class="otherBox"></div>
+        <span>
+            <button id="submitButton2v3">
+                <i class="fa fa-plus"></i> Add another item
+            </button>
+        </span>
+    </div>
+    <div id="infoFillv4">
+        <div class="toolTipv">
+            <span class="fa fa-info-circle"></span>
+            <span class="toolTipvText">Ensure you highlight the experiences that you played a significant
+                role in. The more responsibility, the more impressive the experience!</span>
+        </div>
+        <h1>
+            Extracurricular and Leadership Experience
+        </h1>
+        <div class="input_fields_wrap3">
+            <input class="txtBox" type="text" name="Extracurricular Experience " size="100"
+                placeholder="What was the experience?">
+        </div>
+        <div class="input_fields_wrap3">
+            <label style="margin-right:18rem;color:#7395AE;">Start Date</label><label
+                style="color:#7395AE;margin-right:3rem;">End
+                Date</label><br>
+            <input class="txtBox1" type="date" name="Extracurricular start date 1"
+                placeholder="When did start and finish at this school?"><input type="date" class="txtBox1"
+                name="Extracurricular end date 1">
+        </div>
+        <div class="input_fields_wrap3">
+            <input class="txtBox" type="text" name="Experience Role" size="100"
+                placeholder="What was your role and responsibilities in this experience?">
+        </div>
+        <div class="otherBox"></div>
+        <span>
+            <button id="submitButton2v3">
+                <i class="fa fa-plus"></i> Add another item
+            </button>
+        </span>
+    </div> -->
+
+    
+
 </body>
 
 </html>
