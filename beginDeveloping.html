@@ -39,42 +39,42 @@
                     <label class="fnameLabel" for="fname">
                         Full Name
                     </label><br><br>
-                    <input type="text" class="fname" name="Full-name" placeholder="Your full name..."
+                    <input type="text" class="fname" name="Full-Name:" placeholder="Your full name..."
                         style="text-align: center;"><br>
                     <!--Full name input-->
 
                     <label class="emailLabel" for="email">
                         Email Address
                     </label><br><br>
-                    <input type="text" class="mail" name="Email " placeholder="Your email address..."
+                    <input type="text" class="mail" name="Email:" placeholder="Your email address..."
                         style="text-align: center;"><br>
                     <!--Email input-->
 
                     <label class="pnumberLabel" for="pnumber">
                         Phone Number
                     </label><br><br>
-                    <input type="text" class="pnumber" name="Phone number " placeholder="Your phone number..."
+                    <input type="text" class="pnumber" name="Phone Number:" placeholder="Your phone number..."
                         style="text-align: center;"><br>
                     <!--Phone number input-->
 
                     <label class="countryLabel" for="country">
                         Country
                     </label><br><br>
-                    <input type="text" class="country" name="Country " placeholder="Your country..."
+                    <input type="text" class="country" name="Country:" placeholder="Your country..."
                         style="text-align: center;"><br>
                     <!--Country input-->
 
                     <label class="provinceLabel" for="province">
                         Province / State
                     </label><br><br>
-                    <input type="text" class="province" name="Province " placeholder="Your province / state..."
+                    <input type="text" class="province" name="Province:" placeholder="Your province / state..."
                         style="text-align: center;"><br>
                     <!--Province/State input-->
 
                     <label class="cityLabel" for="city">
                         City
                     </label><br>
-                    <input type="text" class="city" name="City " placeholder="Your city..."
+                    <input type="text" class="city" name="City:" placeholder="Your city..."
                         style="text-align: center;"><br>
                     <!--City input-->
 
@@ -83,7 +83,7 @@
                         <h2>
                             Personal Description
                         </h2>
-                        <textarea type="text" name="Personal Description"
+                        <textarea type="text" name="Personal Description:"
                             placeholder="Write a short bio about yourself so people can get to know you personally..."
                             style="width:35rem; height:8rem;"></textarea>
                         <!--Personal bio input-->
@@ -92,87 +92,68 @@
 
                 <!--School inputs-->
                 <div id="edu">
-                <div class="infoFille">
-                    <div class="toolTipe">
-                        <span class="fa fa-info-circle"></span>
-                        <span class="toolTipeText">Be sure to put your education history from most recent to least
-                            recent so employers are able to see your current education level easier!</span>
-                    </div>
-                    <h1>
-                        Education
-                    </h1>
-                    <div class="input_fields_wrap1">
-                        <input class="txtBox" type="text" name="School Location 1:" size="100"
-                            placeholder="Where did you go to school?">
-                    </div>
-                    <div class="input_fields_wrap1">
-                        <label style="margin-right:18rem;color:#7395AE;">Start Date</label><label
-                            style="color:#7395AE;margin-right:3rem;">End
-                            Date</label><br>
-                        <input class="txtBox1" type="date" name="School start date 1:"
-                            placeholder="When did start and finish at this school?"><input type="date" class="txtBox1"
-                            name="School end date 1:">
-                    </div>
-                    <div class="input_fields_wrap1">
-                        <input class="txtBox" type="text" name="School Awards 1:" size="100"
-                            placeholder="Did you win any awards during your time at this school?">
-                    </div>
-                    <span><button type="button" id="submitButton2e">
-                            <!--Add text box button-->
-                            <i class="fa fa-plus"></i> Add another item
-                        </button>
-                    </span>
-                </div>
-                <div id="infoFille2">
-                    <h1>School 2</h1>
-                    <div class="input_fields_wrap1"><input class="txtBox" type="text" name="School Location 2:" size="100"
-                            placeholder="Where did you go to school?"> </div>
-                    <div class="input_fields_wrap1"><label style="margin-right:18rem;color:#7395AE;">Start Date</label><label
-                            style="color:#7395AE;margin-right:3rem;">End Date</label><br><input class="txtBox1" type="date"
-                            name="School start date 2:" placeholder="When did start and finish at this job?"><input type="date"
-                            class="txtBox1" name="School end date 2:"></div>
-                    <div class="input_fields_wrap1"><input class="txtBox" type="text" name="School Awards 2:" size="100"
-                            placeholder="Did you win any awards during your time at this school?"></div>
-                            <span><button type="button" id="submitButton2e2">
+                    <div class="infoFille">
+                        <div class="toolTipe">
+                            <span class="fa fa-info-circle"></span>
+                            <span class="toolTipeText">Be sure to put your education history from most recent to least
+                                recent so employers are able to see your current education level easier!</span>
+                        </div>
+                        <h1>
+                            Education
+                        </h1>
+                        <div class="input_fields_wrap1">
+                            <input class="txtBox" type="text" name="School Location 1:" size="100"
+                                placeholder="Where did you go to school?">
+                        </div>
+                        <div class="input_fields_wrap1">
+                            <label style="margin-right:18rem;color:#7395AE;">Start Date</label><label
+                                style="color:#7395AE;margin-right:3rem;">End
+                                Date</label><br>
+                            <input class="txtBox1" type="date" name="School Start Date 1:"
+                                placeholder="When did start and finish at this school?"><input type="date"
+                                class="txtBox1" name="School End Date 1:">
+                        </div>
+                        <div class="input_fields_wrap1">
+                            <input class="txtBox" type="text" name="School Awards 1:" size="100"
+                                placeholder="Did you win any awards during your time at this school?">
+                        </div>
+                        <span><button type="button" id="submitButton2e">
                                 <!--Add text box button-->
-                                <i class="fa fa-plus"></i> Add another item
+                                <i class="fa fa-plus"></i> Add Another School
                             </button>
                         </span>
-                </div>
-                <div id="infoFille3">
-                    <h1>School 3</h1>
-                    <div class="input_fields_wrap1"><input class="txtBox" type="text" name="School Location 3:" size="100"
-                            placeholder="Where did you go to school?"> </div>
-                    <div class="input_fields_wrap1"><label style="margin-right:18rem;color:#7395AE;">Start Date</label><label
-                            style="color:#7395AE;margin-right:3rem;">End Date</label><br><input class="txtBox1" type="date"
-                            name="School start date 3:" placeholder="When did start and finish at this job?"><input type="date"
-                            class="txtBox1" name="School end date 3:"></div>
-                    <div class="input_fields_wrap1"><input class="txtBox" type="text" name="School Awards 3:" size="100"
-                            placeholder="Did you win any awards during your time at this school?"></div>
-                </div>
+                    </div>
+                    <div id="infoFille2">
+                        <h1>Education 2</h1>
+                        <div class="input_fields_wrap1"><input class="txtBox" type="text" name="School Location 2:"
+                                size="100" placeholder="Where did you go to school?"> </div>
+                        <div class="input_fields_wrap1"><label style="margin-right:18rem;color:#7395AE;">Start
+                                Date</label><label style="color:#7395AE;margin-right:3rem;">End Date</label><br><input
+                                class="txtBox1" type="date" name="School start date 2:"
+                                placeholder="When did start and finish at this job?"><input type="date" class="txtBox1"
+                                name="School end date 2:"></div>
+                        <div class="input_fields_wrap1"><input class="txtBox" type="text" name="School Awards 2:"
+                                size="100" placeholder="Did you win any awards during your time at this school?"></div>
+                        <span><button type="button" id="submitButton2e2">
+                                <!--Add text box button-->
+                                <i class="fa fa-plus"></i> Add Another School
+                            </button>
+                        </span>
+                    </div>
+                    <div id="infoFille3">
+                        <h1>Education 3</h1>
+                        <div class="input_fields_wrap1"><input class="txtBox" type="text" name="School Location 3:"
+                                size="100" placeholder="Where did you go to school?"> </div>
+                        <div class="input_fields_wrap1"><label style="margin-right:18rem;color:#7395AE;">Start
+                                Date</label><label style="color:#7395AE;margin-right:3rem;">End Date</label><br><input
+                                class="txtBox1" type="date" name="School Start Date 3:"
+                                placeholder="When did start and finish at this job?"><input type="date" class="txtBox1"
+                                name="School End Date 3:"></div>
+                        <div class="input_fields_wrap1"><input class="txtBox" type="text" name="School Awards 3:"
+                                size="100" placeholder="Did you win any awards during your time at this school?"></div>
+                    </div>
                 </div>
 
-                <script>
-                    const targetDiv2 = document.getElementById("infoFille2");
-                    const targetDiv3 = document.getElementById("infoFille3");
-                    const btn1 = document.getElementById("submitButton2e");
-                    const btn2 = document.getElementById("submitButton2e2");
-                    const btn3 = document.getElementById("submitButton2e3");
-                    targetDiv2.style.display = "none";
-                    targetDiv3.style.display = "none";
-                    btn1.onclick = function () {
-                        if (targetDiv2.style.display == "none") {
-                            targetDiv2.style.display = "block";
-                            btn1.style.display="none";
-                            btn2.style.display="block";
-                        }
-                    }
-                    btn2.onclick = function(){
-                        if (targetDiv3.style.display == "none") {
-                            targetDiv3.style.display = "block";
-                            btn2.style.display="none";
-                        }
-                    };</script>
 
 
 
@@ -190,28 +171,55 @@
                         Professional Experience
                     </h1>
                     <div class="input_fields_wrap2">
-                        <input class="txtBox" type="text" name="Work Location " size="100"
+                        <input class="txtBox" type="text" name="Work Location 1:" size="100"
                             placeholder="Where did you work?">
                     </div>
                     <div class="input_fields_wrap2">
                         <label style="margin-right:18rem;color:#7395AE;">Start Date</label><label
                             style="color:#7395AE;margin-right:3rem;">End
                             Date</label><br>
-                        <input class="txtBox1" type="date" name="Work start date 1"
+                        <input class="txtBox1" type="date" name="Work Start Date 1:"
                             placeholder="When did start and finish at this school?"><input type="date" class="txtBox1"
-                            name="Work end date 1">
+                            name="Work End Date 1:">
                     </div>
                     <div class="input_fields_wrap2">
-                        <input class="txtBox" type="text" name="Job title" size="100"
+                        <input class="txtBox" type="text" name="Job Title 1:" size="100"
                             placeholder="What was your job title and responsibilities at this company?">
                     </div>
                     <span>
-                        <div class="submitButton2p">
-                            <button class="submitButton2p">
-                                <i class="fa fa-plus"></i> Add another item
-                            </button>
-                        </div>
+                        <button type="button" id="submitButton2p">
+                            <i class="fa fa-plus"></i> Add Another Job
+                        </button>
                     </span>
+                </div>
+                <div id="infoFillp2">
+                    <h1>Professional Experience 2</h1>
+                    <div class="input_fields_wrap2"><input class="txtBox" type="text" name="Work Location 2:" size="100"
+                            placeholder="Where did you work?"> </div>
+                    <div class="input_fields_wrap2"><label style="margin-right:18rem;color:#7395AE;">Start
+                            Date</label><label style="color:#7395AE;margin-right:3rem;">End Date</label><br><input
+                            class="txtBox1" type="date" name="Work Start Date 2:"
+                            placeholder="When did start and finish at this job?"><input type="date" class="txtBox1"
+                            name="Work End Date 2:"></div>
+                    <div class=" input_fields_wrap2"><input class="txtBox" type="text" name="School Awards 2:"
+                            size="100" placeholder="What was your job title and responsibilities at this company"></div>
+                    <span>
+                        <button type="button" id="submitButton2p2">
+                            <i class="fa fa-plus"></i> Add Another Job
+                        </button>
+                    </span>
+                </div>
+                <div id="infoFillp3">
+                    <h1>Professional Experience 3</h1>
+                    <div class="input_fields_wrap2"><input class="txtBox" type="text" name="Work Location 3:" size="100"
+                            placeholder="Where did you work?"> </div>
+                    <div class="input_fields_wrap2"><label style="margin-right:18rem;color:#7395AE;">Start
+                            Date</label><label style="color:#7395AE;margin-right:3rem;">End Date</label><br><input
+                            class="txtBox1" type="date" name="Work Start Date 3:"
+                            placeholder="When did start and finish at this job?"><input type="date" class="txtBox1"
+                            name="Work End Date 3:"></div>
+                    <div class="input_fields_wrap2"><input class="txtBox" type="text" name="School Awards 3:" size="100"
+                            placeholder="What was your job title and responsibilities at this company?"></div>
                 </div>
 
 
@@ -226,28 +234,64 @@
                         Extracurricular and Leadership Experience
                     </h1>
                     <div class="input_fields_wrap3">
-                        <input class="txtBox" type="text" name="Extracurricular Experience " size="100"
+                        <input class="txtBox" type="text" name="Extracurricular Experience 1:" size="100"
                             placeholder="What was the experience?">
                     </div>
                     <div class="input_fields_wrap3">
                         <label style="margin-right:18rem;color:#7395AE;">Start Date</label><label
                             style="color:#7395AE;margin-right:3rem;">End
                             Date</label><br>
-                        <input class="txtBox1" type="date" name="Extracurricular start date 1"
+                        <input class="txtBox1" type="date" name="Extracurricular Start Date 1:"
                             placeholder="When did start and finish at this school?"><input type="date" class="txtBox1"
-                            name="Extracurricular end date 1">
+                            name="Extracurricular End Date 1:">
                     </div>
                     <div class="input_fields_wrap3">
-                        <input class="txtBox" type="text" name="Experience Role" size="100"
+                        <input class="txtBox" type="text" name="Experience Role 1:" size="100"
                             placeholder="What was your role and responsibilities in this experience?">
                     </div>
                     <div class="otherBox"></div>
                     <span>
-                        <button class="submitButton2v">
-                            <i class="fa fa-plus"></i> Add another item
+                        <button type="button" id="submitButton2v">
+                            <i class="fa fa-plus"></i> Add Another Experience
                         </button>
                     </span>
                 </div>
+                <div id="infoFillv2">
+                    <h1>Extracurricular and Leadership Experience 2</h1>
+                    <div class="input_fields_wrap3"><input class="txtBox" type="text"
+                            name="Extracurricular Experience 2:" size="100" placeholder="What was the experience?">
+                    </div>
+                    <div class="input_fields_wrap3"><label style="margin-right:18rem;color:#7395AE;">Start
+                            Date</label><label style="color:#7395AE;margin-right:3rem;">EndDate</label><br><input
+                            class="txtBox1" type="date" name="Volunteer Start Date 2:"
+                            placeholder="When did start and finish at this school?"><input type="date" class="txtBox1"
+                            name="Volunteer End Date 2:"></div>
+                    <div class="input_fields_wrap3"><input class="txtBox" type="text" name="School Awards 2:" size="100"
+                            placeholder="What was your role and responsibilities in this experience?"></div>
+                    <span>
+                        <button type="button" id="submitButton2v2">
+                            <i class="fa fa-plus"></i> Add Another Experience
+                        </button>
+                    </span>
+                </div>
+                <div id="infoFillv3">
+                    <h1>Extracurricular and Leadership Experience 3</h1>
+                    <div class="input_fields_wrap3"><input class="txtBox" type="text"
+                            name="Extracurricular Experience 3:" size="100" placeholder="What was the experience?">
+                    </div>
+                    <div class="input_fields_wrap3"><label style="margin-right:18rem;color:#7395AE;">Start
+                            Date</label><label style="color:#7395AE;margin-right:3rem;">EndDate</label><br><input
+                            class="txtBox1" type="date" name="Volunteer Start Date 3:"
+                            placeholder="When did start and finish at this school?"><input type="date" class="txtBox1"
+                            name="Volunteer End Date 3:"></div>
+                    <div class="input_fields_wrap3"><input class="txtBox" type="text" name="School Awards 3:" size="100"
+                            placeholder="What was your role and responsibilities in this experience?"></div>
+                </div>
+
+
+
+
+
 
                 <h2 style="margin-top:4rem;">
                     Additional Information
@@ -308,105 +352,6 @@
         <div id="caption"></div>
     </div>
     <script src="index.js"></script>
-<!-- 
-    <div id="infoFillv2">
-        <div class="toolTipv">
-            <span class="fa fa-info-circle"></span>
-            <span class="toolTipvText">Ensure you highlight the experiences that you played a significant
-                role in. The more responsibility, the more impressive the experience!</span>
-        </div>
-        <h1>
-            Extracurricular and Leadership Experience
-        </h1>
-        <div class="input_fields_wrap3">
-            <input class="txtBox" type="text" name="Extracurricular Experience " size="100"
-                placeholder="What was the experience?">
-        </div>
-        <div class="input_fields_wrap3">
-            <label style="margin-right:18rem;color:#7395AE;">Start Date</label><label
-                style="color:#7395AE;margin-right:3rem;">End
-                Date</label><br>
-            <input class="txtBox1" type="date" name="Extracurricular start date 1"
-                placeholder="When did start and finish at this school?"><input type="date" class="txtBox1"
-                name="Extracurricular end date 1">
-        </div>
-        <div class="input_fields_wrap3">
-            <input class="txtBox" type="text" name="Experience Role" size="100"
-                placeholder="What was your role and responsibilities in this experience?">
-        </div>
-        <div class="otherBox"></div>
-        <span>
-            <button id="submitButton2v2">
-                <i class="fa fa-plus"></i> Add another item
-            </button>
-        </span>
-    </div>
-    <div id="infoFillv3">
-        <div class="toolTipv">
-            <span class="fa fa-info-circle"></span>
-            <span class="toolTipvText">Ensure you highlight the experiences that you played a significant
-                role in. The more responsibility, the more impressive the experience!</span>
-        </div>
-        <h1>
-            Extracurricular and Leadership Experience
-        </h1>
-        <div class="input_fields_wrap3">
-            <input class="txtBox" type="text" name="Extracurricular Experience " size="100"
-                placeholder="What was the experience?">
-        </div>
-        <div class="input_fields_wrap3">
-            <label style="margin-right:18rem;color:#7395AE;">Start Date</label><label
-                style="color:#7395AE;margin-right:3rem;">End
-                Date</label><br>
-            <input class="txtBox1" type="date" name="Extracurricular start date 1"
-                placeholder="When did start and finish at this school?"><input type="date" class="txtBox1"
-                name="Extracurricular end date 1">
-        </div>
-        <div class="input_fields_wrap3">
-            <input class="txtBox" type="text" name="Experience Role" size="100"
-                placeholder="What was your role and responsibilities in this experience?">
-        </div>
-        <div class="otherBox"></div>
-        <span>
-            <button id="submitButton2v3">
-                <i class="fa fa-plus"></i> Add another item
-            </button>
-        </span>
-    </div>
-    <div id="infoFillv4">
-        <div class="toolTipv">
-            <span class="fa fa-info-circle"></span>
-            <span class="toolTipvText">Ensure you highlight the experiences that you played a significant
-                role in. The more responsibility, the more impressive the experience!</span>
-        </div>
-        <h1>
-            Extracurricular and Leadership Experience
-        </h1>
-        <div class="input_fields_wrap3">
-            <input class="txtBox" type="text" name="Extracurricular Experience " size="100"
-                placeholder="What was the experience?">
-        </div>
-        <div class="input_fields_wrap3">
-            <label style="margin-right:18rem;color:#7395AE;">Start Date</label><label
-                style="color:#7395AE;margin-right:3rem;">End
-                Date</label><br>
-            <input class="txtBox1" type="date" name="Extracurricular start date 1"
-                placeholder="When did start and finish at this school?"><input type="date" class="txtBox1"
-                name="Extracurricular end date 1">
-        </div>
-        <div class="input_fields_wrap3">
-            <input class="txtBox" type="text" name="Experience Role" size="100"
-                placeholder="What was your role and responsibilities in this experience?">
-        </div>
-        <div class="otherBox"></div>
-        <span>
-            <button id="submitButton2v3">
-                <i class="fa fa-plus"></i> Add another item
-            </button>
-        </span>
-    </div> -->
-
-    
 
 </body>
 
