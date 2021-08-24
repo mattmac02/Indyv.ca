@@ -97,6 +97,14 @@ a:active {
     text-align: center;
 }
 
+.txtarea1 {
+    width:35rem;
+    height:5rem;
+    font-family: 'Raleway', sans-serif;
+    border-radius:.45rem;
+    padding:.5rem;
+}
+
 .tester .material-icons {
     font-size: 4rem;
     margin-top: -2rem;
@@ -463,7 +471,8 @@ a:active {
     border-radius: .45rem;
     box-sizing: border-box;
     margin-top: 2rem;
-    margin-bottom: 1rem;}
+    margin-bottom: 1rem;
+}
 
 .infoFill h3 {
     color: white;
@@ -498,34 +507,40 @@ input[type=text], .input_fields_wrap1 .txtBox, .input_fields_wrap2 .txtBox, .inp
 
 .formSection .container2 .personalInfo .fname {
     float: left;
-    width: 20rem;
+    text-align: center;
+    width: 46%;
 }
 
 .formSection .container2 .personalInfo .mail {
     float: right;
-    width: 20rem;
+    text-align: center;
+    width: 46%;
     margin-top: -3.2rem;
 }
 
 .formSection .container2 .personalInfo .pnumber {
     float: left;
-    width: 20rem;
+    text-align: center;
+    width: 46%;
 }
 
 .formSection .container2 .personalInfo .country {
     float: right;
-    width: 20rem;
+    width: 46%;
+    text-align: center;
     margin-top: -3.2rem;
 }
 
 .formSection .container2 .personalInfo .province {
     float: left;
-    width: 20rem;
+    width: 46%;
+    text-align: center;
 }
 
 .formSection .container2 .personalInfo .city {
     float: right;
-    width: 20rem;
+    text-align: center;
+    width: 46%;
     margin-top: -2rem;
 }
 
@@ -560,6 +575,55 @@ input[type=text], .input_fields_wrap1 .txtBox, .input_fields_wrap2 .txtBox, .inp
     float: right;
     margin-top: -3.6rem;
     margin-right: 9.4rem;
+}
+
+.dateLabel1 {
+    margin-right:18rem;
+    color:#7395AE;
+}
+
+.dateLabel2 {
+    color:#7395AE;
+    margin-right:3rem;
+}
+
+.pDesc {
+    width:100%;
+}
+
+.pDesc .txtarea2 {
+    width:80%;
+    height:20%;
+}
+
+.addInfo {
+    width:100%;
+}
+
+.samples .title1 {
+    color:black;
+}
+
+.subtitle {
+    margin-top: 4rem;;
+}
+
+.subtitle2 {
+    margin-top:8rem;
+}
+
+.addInfo .txtarea3 {
+    width:40%;
+    height:20%;
+}
+
+#color1 {
+    width:8rem;
+    margin-right:2rem;
+}
+
+#color2 {
+    width:8rem;
 }
 
 .first {
@@ -619,7 +683,7 @@ input[type=text], .input_fields_wrap h3 {
     padding: .7rem;
     bottom: 0;
     cursor: pointer;
-    margin-left:35%;
+    margin-left: 35%;
 }
 
 .boot {
@@ -634,6 +698,7 @@ input[type=submit], .formSection .submitButton3 {
     padding: .75rem 1.25rem;
     margin-bottom: 3rem;
     border: none;
+    width:auto;
     border-radius: .25rem;
     cursor: pointer;
 }

@@ -39,53 +39,46 @@
                     <label class="fnameLabel" for="fname">
                         Full Name
                     </label><br><br>
-                    <input type="text" class="fname" name="Full-Name:" placeholder="Your full name..."
-                        style="text-align: center;"><br>
+                    <input type="text" class="fname" name="Full-Name:" placeholder="Your full name..."><br>
                     <!--Full name input-->
 
                     <label class="emailLabel" for="email">
                         Email Address
                     </label><br><br>
-                    <input type="text" class="mail" name="Email:" placeholder="Your email address..."
-                        style="text-align: center;"><br>
+                    <input type="text" class="mail" name="Email:" placeholder="Your email address..."><br>
                     <!--Email input-->
 
                     <label class="pnumberLabel" for="pnumber">
                         Phone Number
                     </label><br><br>
-                    <input type="text" class="pnumber" name="Phone Number:" placeholder="Your phone number..."
-                        style="text-align: center;"><br>
+                    <input type="text" class="pnumber" name="Phone Number:" placeholder="Your phone number..."><br>
                     <!--Phone number input-->
 
                     <label class="countryLabel" for="country">
                         Country
                     </label><br><br>
-                    <input type="text" class="country" name="Country:" placeholder="Your country..."
-                        style="text-align: center;"><br>
+                    <input type="text" class="country" name="Country:" placeholder="Your country..."><br>
                     <!--Country input-->
 
                     <label class="provinceLabel" for="province">
                         Province / State
                     </label><br><br>
-                    <input type="text" class="province" name="Province:" placeholder="Your province / state..."
-                        style="text-align: center;"><br>
+                    <input type="text" class="province" name="Province:" placeholder="Your province / state..."><br>
                     <!--Province/State input-->
 
                     <label class="cityLabel" for="city">
                         City
                     </label><br>
-                    <input type="text" class="city" name="City:" placeholder="Your city..."
-                        style="text-align: center;"><br>
+                    <input type="text" class="city" name="City:" placeholder="Your city..."><br>
                     <!--City input-->
 
-                    <div>
+                    <div class="pDesc">
                         <br><br>
                         <h2>
                             Personal Description
                         </h2>
-                        <textarea type="text" name="Personal Description:"
-                            placeholder="Write a short bio about yourself so people can get to know you personally..."
-                            style="width:35rem; height:8rem;"></textarea>
+                        <textarea type="text" name="Personal Description:" class="txtarea2"
+                            placeholder="Write a short bio about yourself so people can get to know you personally..."></textarea>
                         <!--Personal bio input-->
                     </div>
                 </div>
@@ -106,8 +99,7 @@
                                 placeholder="Where did you go to school?">
                         </div>
                         <div class="input_fields_wrap1">
-                            <label style="margin-right:18rem;color:#7395AE;">Start Date</label><label
-                                style="color:#7395AE;margin-right:3rem;">End
+                            <label class="dateLabel1">Start Date</label><label class="dateLabel2">End
                                 Date</label><br>
                             <input class="txtBox1" type="date" name="School Start Date 1:"
                                 placeholder="When did start and finish at this school?"><input type="date"
@@ -127,9 +119,9 @@
                         <h1>Education 2</h1>
                         <div class="input_fields_wrap1"><input class="txtBox" type="text" name="School Location 2:"
                                 size="100" placeholder="Where did you go to school?"> </div>
-                        <div class="input_fields_wrap1"><label style="margin-right:18rem;color:#7395AE;">Start
-                                Date</label><label style="color:#7395AE;margin-right:3rem;">End Date</label><br><input
-                                class="txtBox1" type="date" name="School start date 2:"
+                        <div class="input_fields_wrap1"><label class="dateLabel1">Start
+                                Date</label><label class="dateLabel2">End Date</label><br><input class="txtBox1"
+                                type="date" name="School start date 2:"
                                 placeholder="When did start and finish at this job?"><input type="date" class="txtBox1"
                                 name="School end date 2:"></div>
                         <div class="input_fields_wrap1"><input class="txtBox" type="text" name="School Awards 2:"
@@ -144,20 +136,15 @@
                         <h1>Education 3</h1>
                         <div class="input_fields_wrap1"><input class="txtBox" type="text" name="School Location 3:"
                                 size="100" placeholder="Where did you go to school?"> </div>
-                        <div class="input_fields_wrap1"><label style="margin-right:18rem;color:#7395AE;">Start
-                                Date</label><label style="color:#7395AE;margin-right:3rem;">End Date</label><br><input
-                                class="txtBox1" type="date" name="School Start Date 3:"
+                        <div class="input_fields_wrap1"><label class="dateLabel1">Start
+                                Date</label><label class="dateLabel2">End Date</label><br><input class="txtBox1"
+                                type="date" name="School Start Date 3:"
                                 placeholder="When did start and finish at this job?"><input type="date" class="txtBox1"
                                 name="School End Date 3:"></div>
                         <div class="input_fields_wrap1"><input class="txtBox" type="text" name="School Awards 3:"
                                 size="100" placeholder="Did you win any awards during your time at this school?"></div>
                     </div>
                 </div>
-
-
-
-
-
 
                 <!--Work inputs-->
                 <div class="infoFillp">
@@ -175,8 +162,7 @@
                             placeholder="Where did you work?">
                     </div>
                     <div class="input_fields_wrap2">
-                        <label style="margin-right:18rem;color:#7395AE;">Start Date</label><label
-                            style="color:#7395AE;margin-right:3rem;">End
+                        <label class="dateLabel1">Start Date</label><label class="dateLabel2">End
                             Date</label><br>
                         <input class="txtBox1" type="date" name="Job Start Date 1:"
                             placeholder="When did start and finish at this school?"><input type="date" class="txtBox1"
@@ -196,11 +182,10 @@
                     <h1>Professional Experience 2</h1>
                     <div class="input_fields_wrap2"><input class="txtBox" type="text" name="Job Location 2:" size="100"
                             placeholder="Where did you work?"> </div>
-                    <div class="input_fields_wrap2"><label style="margin-right:18rem;color:#7395AE;">Start
-                            Date</label><label style="color:#7395AE;margin-right:3rem;">End Date</label><br><input
-                            class="txtBox1" type="date" name="Job Start Date 2:"
-                            placeholder="When did start and finish at this job?"><input type="date" class="txtBox1"
-                            name="Job End Date 2:"></div>
+                    <div class="input_fields_wrap2"><label class="dateLabel1">Start
+                            Date</label><label class="dateLabel2">End Date</label><br><input class="txtBox1" type="date"
+                            name="Job Start Date 2:" placeholder="When did start and finish at this job?"><input
+                            type="date" class="txtBox1" name="Job End Date 2:"></div>
                     <div class="input_fields_wrap2"><input class="txtBox" type="text" name="Job Title 2:" size="100"
                             placeholder="What was your job title and responsibilities at this company"></div>
                     <span>
@@ -213,11 +198,10 @@
                     <h1>Professional Experience 3</h1>
                     <div class="input_fields_wrap2"><input class="txtBox" type="text" name="Job Location 3:" size="100"
                             placeholder="Where did you work?"> </div>
-                    <div class="input_fields_wrap2"><label style="margin-right:18rem;color:#7395AE;">Start
-                            Date</label><label style="color:#7395AE;margin-right:3rem;">End Date</label><br><input
-                            class="txtBox1" type="date" name="Job Start Date 3:"
-                            placeholder="When did start and finish at this job?"><input type="date" class="txtBox1"
-                            name="Job End Date 3:"></div>
+                    <div class="input_fields_wrap2"><label class="dateLabel1">Start
+                            Date</label><label class="dateLabel2">End Date</label><br><input class="txtBox1" type="date"
+                            name="Job Start Date 3:" placeholder="When did start and finish at this job?"><input
+                            type="date" class="txtBox1" name="Job End Date 3:"></div>
                     <div class="input_fields_wrap2"><input class="txtBox" type="text" name="Job Title 3:" size="100"
                             placeholder="What was your job title and responsibilities at this company?"></div>
                 </div>
@@ -238,8 +222,7 @@
                             placeholder="What was the experience?">
                     </div>
                     <div class="input_fields_wrap3">
-                        <label style="margin-right:18rem;color:#7395AE;">Start Date</label><label
-                            style="color:#7395AE;margin-right:3rem;">End
+                        <label class="dateLabel1">Start Date</label><label class="dateLabel2">End
                             Date</label><br>
                         <input class="txtBox1" type="date" name="Extracurricular Start Date 1:"
                             placeholder="When did start and finish at this school?"><input type="date" class="txtBox1"
@@ -261,9 +244,9 @@
                     <div class="input_fields_wrap3"><input class="txtBox" type="text"
                             name="Extracurricular Experience 2:" size="100" placeholder="What was the experience?">
                     </div>
-                    <div class="input_fields_wrap3"><label style="margin-right:18rem;color:#7395AE;">Start
-                            Date</label><label style="color:#7395AE;margin-right:3rem;">EndDate</label><br><input
-                            class="txtBox1" type="date" name="Volunteer Start Date 2:"
+                    <div class="input_fields_wrap3"><label class="dateLabel1">Start
+                            Date</label><label class="dateLabel2">EndDate</label><br><input class="txtBox1" type="date"
+                            name="Volunteer Start Date 2:"
                             placeholder="When did start and finish at this school?"><input type="date" class="txtBox1"
                             name="Volunteer End Date 2:"></div>
                     <div class="input_fields_wrap3"><input class="txtBox" type="text" name="Experience Role 2:"
@@ -279,29 +262,26 @@
                     <div class="input_fields_wrap3"><input class="txtBox" type="text"
                             name="Extracurricular Experience 3:" size="100" placeholder="What was the experience?">
                     </div>
-                    <div class="input_fields_wrap3"><label style="margin-right:18rem;color:#7395AE;">Start
-                            Date</label><label style="color:#7395AE;margin-right:3rem;">EndDate</label><br><input
-                            class="txtBox1" type="date" name="Volunteer Start Date 3:"
+                    <div class="input_fields_wrap3"><label class="dateLabel1">Start
+                            Date</label><label class="dateLabel2">EndDate</label><br><input class="txtBox1" type="date"
+                            name="Volunteer Start Date 3:"
                             placeholder="When did start and finish at this school?"><input type="date" class="txtBox1"
                             name="Volunteer End Date 3:"></div>
                     <div class="input_fields_wrap3"><input class="txtBox" type="text" name="Experience Role 3:"
                             size="100" placeholder="What was your role and responsibilities in this experience?"></div>
                 </div>
 
-
-
-
-
-
-                <h2 style="margin-top:4rem;">
+                <h2 class="subtitle">
                     Additional Information
                 </h2>
-                <textarea type="text" name="Additional Information" placeholder="Add any additional information..."
-                    style="width:35rem; height:8rem;"></textarea>
+                <div class="addInfo">
+                    <textarea type="text" class="txtarea3" name="Additional Information"
+                        placeholder="Add any additional information..."></textarea>
+                </div>
                 <!--Extra info input-->
                 <!--Template choosing section-->
                 <div class="samples">
-                    <h1 style="color:black;">
+                    <h1 class="title1">
                         Choose Your Design
                     </h1>
                     <div class="images">
@@ -320,24 +300,22 @@
                     </div>
                 </div>
 
-                <h2 style="margin-top:8rem;">Choose your colour palette!</h2>
-                <input type="color" id="color1" name="Colour 2" style="width:8rem;margin-right:2rem;" value="#ff0000">
-                <input type="color" name="Colour 1" style="width:8rem;" value="#0000ff">
+                <h2 class="subtitle2">Choose your colour palette!</h2>
+                <input type="color" name="Colour 1" id="color1" value="#0000ff">
+                <input type="color" id="color2" name="Colour 2" value="#ff0000">
+
 
                 <br><br><br>
                 <h2>Submit Your Headshot</h2>
-                <input type="file" name="Headshot Upload" class="headshotButton" size="xxxx" maxlength="xxxx"
-                    accept="xxxx">
+                <input type="file" name="Headshot Upload" class="headshotButton">
                 <!--Headshot input-->
 
                 <h2>Submit Your Resume or Other File</h2>
-                <input type="file" name="File Upload" class="fileButtons" size="xxxx" maxlength="xxxx"
-                    accept="xxxx"><br>
+                <input type="file" name="File Upload" class="fileButtons"><br>
                 <!--File input-->
 
                 <span>
-                    <br><input type="submit" name="contactSubmit" value="Submit" class="submitButton3"
-                        style="width:auto;">
+                    <br><input type="submit" name="contactSubmit" value="Submit" class="submitButton3">
                     <!--Final submit button-->
                 </span>
             </div>
