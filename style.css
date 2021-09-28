@@ -11,19 +11,7 @@ body {
 
 /* Code for Homepage */
 
-.navigationBar {
-    background-color: #7395AE;
-    margin-top: -0.625rem;
-    padding-top: 1.563rem;
-    padding-bottom: 1.563rem;
-    padding-left: 1.563rem;
-    margin-left: -0.625rem;
-    margin-right: -0.625rem;
-    width: 100%;
-    z-index: 2;
-    font-family: 'Raleway', sans-serif;
-    font-size: 2.188rem;
-}
+
 
 a:link {
     cursor: pointer;
