@@ -1,0 +1,16 @@
+Consider the following logical expressions involving different variables:
+
+X: "(A OR B) AND (C AND ~D)"
+Y: "(A AND B) OR (D OR ~C)"
+Z: "(~A AND B) OR (~B AND C)"
+W: "(A AND C) OR (~B AND D)"
+
+a) Show each of the four (X, Y, Z, W) using variables (A, B, C, D).
+
+b) Figure out if any of these expressions are equivalent to each other. Show and explain your reasoning by providing the expressions showing their equivalence.
+
+c) Generate a truth table for all four expressions (X, Y, Z, W). 
+
+d) Do any of these expressions logically imply another? If so explain why, if not also explain why.
+
+e) Identify if there are any rules that are always satisfied or rules that can never be satisfied based on the nature of the problem. Provide explanations for each rule and why or why not it satisfies the condition.

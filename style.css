@@ -1,7 +1,7 @@
 html {
     scroll-behavior: smooth;
     height: 100%;
-    max-width:100%;
+    max-width: 100%;
 }
 
 body {
@@ -11,7 +11,39 @@ body {
 
 /* Code for Homepage */
 
+.footer {
+    width: 100%;
+    background-color: #2b2b2b;
+    padding: 1rem;
+    margin-top: 8rem;
+}
 
+.footer .material-icons {
+    font-size: 12rem;
+    margin-top: -22rem;
+    margin-left: -22rem;
+    color: #7395AE;
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+.footer h1 {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.footer .footerForm {
+    color: white;
+    margin-left: 30%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.footer p {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: .9rem;
+}
 
 a:link {
     cursor: pointer;
@@ -53,25 +85,19 @@ a:active {
     text-align: center;
 }
 
-.buttons .learnMoreButton {
-    font-size: 1.25rem;
+.txtarea1 {
+    width:35rem;
+    height:5rem;
     font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    z-index: 999;
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    cursor: pointer;
-    margin-left: 33.5%;
-    background-color: #2b2b2b;
-    border-color: #2b2b2b;
-    border-radius: .6rem;
-    margin-top: 0.938rem;
+    border-radius:.45rem;
+    padding:.5rem;
 }
 
-.buttons .learnMoreButton {
-    color: white;
+.tester .material-icons {
+    font-size: 4rem;
+    margin-top: -2rem;
+    margin-left: 2rem;
+    color: #7395AE;
 }
 
 .buttons .beginDevelopingButton {
@@ -80,20 +106,20 @@ a:active {
     font-weight: 400;
     padding-left: 2.5rem;
     padding-right: 2.5rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 1.4rem;
+    padding-bottom: 1.4rem;
     cursor: pointer;
-    margin-left: 53.5%;
+    margin-left: 45%;
     color: white;
-    background-color: #2b2b2b;
-    border-color: #2b2b2b;
+    background-image: linear-gradient(to top right, #0433b6, #6795c9 );    ;
+    border-color: white;
     border-radius: .6rem;
-    margin-top: -3.7rem;
+    margin-top: 3%;
 }
 
 .secondSection .learnMoreLink {
     margin-top: 4rem;
-    margin-bottom:3rem;
+    margin-bottom: 3rem;
     font-size: 1.25rem;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
@@ -110,105 +136,103 @@ a:active {
     clip-path: polygon(0 0, 45% 0, 25% 45%, 0 100%);
 }
 
+.secondSection {
+    width: 100%;
+}
+
+/* .secondSection .easyAccess {
+    margin-left:25%;
+} */
 
 .secondSection .easyAccess .howBox {
     background-color: #f0f2f2;
-    width:20rem;
-    box-shadow:-1px 5px 15px 5px rgba(0,0,0,0.13)    ;
-    text-align:center;
-    font-family:'Raleway', sans-serif;
-    margin-left:15rem;
-    line-height:2.5rem;
-    border-radius:0.75rem;
-    padding:2rem;
+    width: 40rem;
+    box-shadow: -1px 5px 15px 5px rgba(0, 0, 0, 0.13);
+    font-family: 'Raleway', sans-serif;
+    margin-left: 37%;
+    line-height: 2.5rem;
+    border-radius: 0.75rem;
+    padding: 2rem;
 }
 
 .gearLogo .fa-gears {
-    margin-top:-23rem;
-    font-size: 18rem;
-    margin-left: 47rem;
+    margin-top: -16rem;
+    font-size: 14rem;
+    margin-left: 15%;
     color: #2b2b2b;
+    margin-bottom: 5%;
 }
 
 .bulbLogo .fa-lightbulb-o {
-    margin-top:-23rem;
-    border-color:solid black;
-    font-size: 18rem;
-    margin-left: 52rem;
+    margin-top: -16rem;
+    border-color: solid black;
+    font-size: 14rem;
+    margin-left: 18%;
     color: #2b2b2b;
 }
 
-.chartLogo .fa-line-chart{
-    margin-top:-23rem;
-    font-size: 18rem;
-    margin-left: 17rem;
+.chartLogo .fa-line-chart {
+    margin-top: -21rem;
+    font-size: 14rem;
+    margin-left: 15%;
     color: #2b2b2b;
 }
 
 .secondSection .easyAccess .devBox {
     background-color: #f0f2f2;
-    width:20rem;
-    box-shadow:-1px 5px 15px 5px rgba(0,0,0,0.13)    ;
-    text-align:center;
-    font-family:'Raleway', sans-serif;
-    margin-left:45rem;
-    line-height:2.5rem;
-    border-radius:.75rem;
-    padding:2rem;
+    width: 40rem;
+    box-shadow: -1px 5px 15px 5px rgba(0, 0, 0, 0.13);
+    font-family: 'Raleway', sans-serif;
+    margin-left: 37%;
+    line-height: 2.5rem;
+    border-radius: .75rem;
+    padding: 2rem;
+    margin-bottom:3%;
 }
 
 .secondSection .easyAccess .thinkBox {
     background-color: #f0f2f2;
-    width:20rem;
-    box-shadow:-1px 5px 15px 5px rgba(0,0,0,0.13)    ;
-    text-align:center;
-    font-family:'Raleway', sans-serif;
-    margin-left:15rem;
-    line-height:2.5rem;
-    border-radius:.75rem;
-    padding:2rem;
+    width: 40rem;
+    box-shadow: -1px 5px 15px 5px rgba(0, 0, 0, 0.13);
+    font-family: 'Raleway', sans-serif;
+    margin-left: 37%;
+    line-height: 2.5rem;
+    border-radius: .75rem;
+    padding: 2rem;
 }
 
 .secondSection {
-    padding-bottom:5rem;
+    padding-bottom: 5rem;
 }
-/* .secondSection {
-    background-image: url(sub.bround.png);
-    background-position:bottom;
-    height:700px;
-    margin-top:-12rem;
-    background-repeat:no-repeat;
-    border-radius:10px;
-} */
 
 .example {
-    margin-top: 4rem;
+    margin-top: 6rem;
+    width: 60%;
+    margin-left:12%;
 }
 
 .example p {
     display: block;
-    margin-top: -20rem;
+    margin-top: -18rem;
     float: right;
     z-index: 9999;
-    width: 30rem;
+    width: 65%;
     text-align: center;
-    margin-right: 2rem;
+    margin-right: -35%;
     font-family: 'Raleway', sans-serif;
-    font-size: 2.2rem;
+    font-size: 3rem;
     border-radius: .6rem;
     font-weight: 900;
     padding: 4rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
-    box-shadow: 3px 5px 21px 1px rgba(74, 96, 112, 0.47);
-    background-color: #7395AE;
 }
 
 .example img {
     display: block;
     height: auto;
-    margin-left: -2rem;
-    width: 50rem;
+    margin-left: -2%;
+    width: 55%;
 }
 
 /* Code for Begin Developing Page */
@@ -243,18 +267,176 @@ a:active {
     margin-left: 2.5%;
 }
 
+.toolTipe, .toolTipp, .toolTipv {
+    position: relative;
+    float: right;
+}
+
+.toolTipe .fa-info-circle {
+    font-size: 3rem;
+    color: #7395AE;
+}
+
+.toolTipp .fa-info-circle {
+    font-size: 3rem;
+    color: #7395AE;
+}
+
+.toolTipv .fa-info-circle {
+    font-size: 3rem;
+    color: #7395AE;
+}
+
+.toolTipe .toolTipeText {
+    visibility: hidden;
+    margin-left: 2.5rem;
+    line-height: 2rem;
+    box-shadow: -1px 5px 15px 5px rgba(0, 0, 0, 0.25);
+    width: 18rem;
+    position: absolute;
+    color: black;
+    padding: 1rem;
+    border-radius: .45rem;
+    background-color: #f0f2f2;
+}
+
+.images {
+    width: 100%;
+}
+
+.images #myImg {
+    margin-left: 2%;
+    width: 20%
+}
+
+.images #myImg2 {
+    margin-left: 2%;
+    width: 20%
+}
+
+.images #myImg3 {
+    margin-left: 2%;
+    width: 20%;
+}
+
+.images video {
+    margin-left: 2%;
+    width: 20%;
+}
+
+.radioButtons {
+    width: 100%;
+}
+
+.template1Button {
+    float: left;
+    margin-left: 16.8%;
+    margin-top: 3rem;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.template2Button {
+    float: left;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 20.3%;
+    margin-top: 3rem;
+}
+
+.template3Button {
+    float: left;
+    margin-left: 20.3%;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 3rem;
+}
+
+.template4Button {
+    float: left;
+    margin-left: 20.3%;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 3rem;
+}
+
+.toolTipp .toolTippText {
+    visibility: hidden;
+    margin-left: 2.5rem;
+    line-height: 2rem;
+    box-shadow: -1px 5px 15px 5px rgba(0, 0, 0, 0.25);
+    width: 18rem;
+    position: absolute;
+    color: black;
+    padding: 1rem;
+    border-radius: .45rem;
+    background-color: #f0f2f2;
+}
+
+.toolTipv .toolTipvText {
+    visibility: hidden;
+    margin-left: 2.5rem;
+    line-height: 2rem;
+    box-shadow: -1px 5px 15px 5px rgba(0, 0, 0, 0.25);
+    width: 18rem;
+    position: absolute;
+    color: black;
+    padding: 1rem;
+    border-radius: .45rem;
+    background-color: #f0f2f2;
+}
+
+.toolTipe:hover .toolTipeText {
+    visibility: visible;
+}
+
+.toolTipp:hover .toolTippText {
+    visibility: visible;
+}
+
+.toolTipv:hover .toolTipvText {
+    visibility: visible;
+}
+
 .infoFille, .infoFillp, .infoFillv {
-    display: inline-block;
-    width: 40%;
-    margin-left: 1.5%;
-    margin-right: 1.5%;
+    width: 55%;
+    margin-left: 22%;
+    margin-right: 40%;
     font-family: 'Raleway', sans-serif;
     padding: 1.5rem;
     background-color: #181a1d;
-    border: 0.063rem solid #ccc;
+    border: 0.063rem solid #181a1d;
     border-radius: .45rem;
     box-sizing: border-box;
-    margin-top: .375rem;
+    margin-top: 3rem;
+}
+
+#infoFille2, #infoFillp2, #infoFillv2 {
+    display: inline-block;
+    width: 55%;
+    margin-left: 22%;
+    margin-right: 40%;
+    font-family: 'Raleway', sans-serif;
+    padding: 1.5rem;
+    background-color: #181a1d;
+    border: 0.063rem solid #181a1d;
+    border-radius: .45rem;
+    box-sizing: border-box;
+    margin-top: 2rem;
+}
+
+#infoFille3, #infoFillp3, #infoFillv3 {
+    display: inline-block;
+    width: 55%;
+    margin-left: 22%;
+    margin-right: 40%;
+    font-family: 'Raleway', sans-serif;
+    padding: 1.5rem;
+    background-color: #181a1d;
+    border: 0.063rem solid #181a1d;
+    border-radius: .45rem;
+    box-sizing: border-box;
+    margin-top: 2rem;
     margin-bottom: 1rem;
 }
 
@@ -265,7 +447,7 @@ a:active {
 
 .formSection h1 {
     text-align: center;
-    margin-top: 3rem;
+    color: #7395AE;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -274,25 +456,215 @@ input[type=text], .input_fields_wrap1 .txtBox, .input_fields_wrap2 .txtBox, .inp
     padding: .85rem;
 }
 
+.input_fields_wrap1 .txtBox1, .input_fields_wrap2 .txtBox1, .input_fields_wrap3 .txtBox1 {
+    width: 50%;
+    border-radius: .45rem;
+    padding: .85rem;
+    margin-bottom: .8rem;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.formSection .container2 .personalInfo {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.formSection .container2 .personalInfo .fname {
+    float: left;
+    text-align: center;
+    width: 46%;
+}
+
+.formSection .container2 .personalInfo .mail {
+    float: right;
+    text-align: center;
+    width: 46%;
+    margin-top: -3.2rem;
+}
+
+.formSection .container2 .personalInfo .pnumber {
+    float: left;
+    text-align: center;
+    width: 46%;
+}
+
+.formSection .container2 .personalInfo .country {
+    float: right;
+    width: 46%;
+    text-align: center;
+    margin-top: -3.2rem;
+}
+
+.formSection .container2 .personalInfo .province {
+    float: left;
+    width: 46%;
+    text-align: center;
+}
+
+.formSection .container2 .personalInfo .city {
+    float: right;
+    text-align: center;
+    width: 46%;
+    margin-top: -2rem;
+}
+
+.formSection .container2 .personalInfo .fnameLabel {
+    float: left;
+    margin-left: 7.4rem;
+}
+
+.formSection .container2 .personalInfo .emailLabel {
+    float: right;
+    margin-top: -3.6rem;
+    margin-right: 7rem;
+}
+
+.formSection .container2 .personalInfo .pnumberLabel {
+    float: left;
+    margin-left: 6.8rem;
+}
+
+.formSection .container2 .personalInfo .countryLabel {
+    float: right;
+    margin-top: -3.6rem;
+    margin-right: 8.4rem;
+}
+
+.formSection .container2 .personalInfo .provinceLabel {
+    float: left;
+    margin-left: 6.5rem;
+}
+
+.formSection .container2 .personalInfo .cityLabel {
+    float: right;
+    margin-top: -3.6rem;
+    margin-right: 9.4rem;
+}
+
+.dateLabel1 {
+    margin-right:18rem;
+    color:#7395AE;
+}
+
+.dateLabel2 {
+    color:#7395AE;
+    margin-right:3rem;
+}
+
+.pDesc {
+    width:100%;
+}
+
+.pDesc .txtarea2 {
+    width:80%;
+    height:20%;
+}
+
+.addInfo {
+    width:100%;
+}
+
+.samples .title1 {
+    color:black;
+}
+
+.subtitle {
+    margin-top: 4rem;;
+}
+
+.subtitle2 {
+    margin-top:8rem;
+}
+
+.addInfo .txtarea3 {
+    width:40%;
+    height:20%;
+}
+
+#color1 {
+    width:8rem;
+    margin-right:2rem;
+}
+
+#color2 {
+    width:8rem;
+}
+
+.first {
+    padding: 5rem;
+}
+
+.first .material-icons {
+    font-size: 10rem;
+    border-radius: 50%;
+    padding: 2rem;
+    background-color: #7395AE;
+}
+
+.first .material-icons:hover {
+    opacity: 0.1;
+}
+
+.first p {
+    opacity: 0;
+}
+
+.first p:hover {
+    background-color: blue;
+    width: 10rem;
+    margin-top: -10rem;
+    padding: 2rem;
+    height: 10rem;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    opacity: 1;
+}
+
+.footer .footerForm .submitButton6 {
+    background-color: #7395AE;
+    margin-top: 2rem;
+    font-size: 1.25rem;
+    padding: .75rem 1.25rem;
+    margin-left: 15rem;
+}
 
 input[type=text], .input_fields_wrap h3 {
     font-family: 'Raleway', sans-serif;
     text-align: center;
 }
 
-.submitButton2e, .submitButton2p, .submitButton2v {
+#submitButton2e, #submitButton2p, #submitButton2v {
     font-size: 1.2rem;
     border-radius: 0.375rem;
     padding: .7rem;
+    bottom: 0;
     cursor: pointer;
+}
+
+#submitButton2e2, #submitButton2p2, #submitButton2v2 {
+    font-size: 1.2rem;
+    border-radius: 0.375rem;
+    padding: .7rem;
+    bottom: 0;
+    cursor: pointer;
+    margin-left: 35%;
+}
+
+.boot {
+    color: orange;
 }
 
 input[type=submit], .formSection .submitButton3 {
     background-color: #04AA6D;
     color: white;
+    font-size: 1.5rem;
     font-family: 'Raleway', sans-serif;
     padding: .75rem 1.25rem;
+    margin-bottom: 3rem;
     border: none;
+    width:auto;
     border-radius: .25rem;
     cursor: pointer;
 }
@@ -336,15 +708,6 @@ input[type=submit], .formSection .submitButton3:hover {
     margin-bottom: 1.5rem;
 }
 
-.samples video {
-    text-align: center;
-    margin-left:4rem;
-}
-
-.samples img {
-    margin-right:-2rem;
-}
-
 .samples h3 {
     text-align: center;
 }
@@ -370,12 +733,10 @@ input[type=submit], .formSection .submitButton3:hover {
     height: 150px;
 }
 
-
 .modal-content, #caption {
     animation-name: zoom;
     animation-duration: 0.6s;
 }
-
 
 .modal1 {
     display: none;
@@ -441,7 +802,6 @@ input[type=submit], .formSection .submitButton3:hover {
 #myImg2 {
     border-radius: 5px;
     cursor: pointer;
-    margin-left: 4rem;
     transition: 0.3s;
 }
 
@@ -472,7 +832,6 @@ input[type=submit], .formSection .submitButton3:hover {
 #myImg3 {
     border-radius: 5px;
     cursor: pointer;
-    margin-left: 4rem;
     transition: 0.3s;
 }
 
@@ -493,7 +852,6 @@ input[type=submit], .formSection .submitButton3:hover {
         transform: scale(1)
     }
 }
-
 
 @media only screen and (max-width: 700px) {
     .modal-content {
@@ -596,7 +954,7 @@ input[type=submit], .formSection .submitButton3:hover {
     text-align: center;
     margin-top: 2.125rem;
     margin-bottom: 3.875rem;
-    text-transform: capitalize;
+    text-transform: uppercase;
     letter-spacing: 0.438rem;
 }
 
@@ -636,108 +994,124 @@ input[type=submit], .formSection .submitButton3:hover {
     }
 }
 
-.schoolSection {
-    margin-top: 8rem;
-}
-
-.logo1 .material-icons {
-    font-size: 21.875rem;
-    margin-left: 10.5rem;
-    color: #13262F;
-}
-
-.schoolSection .schoolText h3 {
-    margin-left: 56rem;
-    margin-top: -20rem;
+.edTitle {
     font-family: 'Raleway', sans-serif;
-    font-weight: 650;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.edTitle .material-icons {
+    font-size: 3rem;
+    color: #13262F;
 }
 
 .schoolSection .schoolText ul {
-    margin-left: 38rem;
-    margin-top: -4rem;
-    height: 12rem;
-    padding-top: 4rem;
+    margin-left: 5rem;
+    height: 15rem;
+    padding-top: 3rem;
     padding-bottom: 4rem;
     padding-left: 2rem;
     padding-right: 2rem;
-    width: 37rem;
+    width: 80%;
     background-color: #f0f2f2;
-    word-spacing: 0.438rem;
+    word-spacing: 0.1rem;
     line-height: 1.875rem;
     font-family: 'Raleway', sans-serif;
     font-size: 0.938rem;
-    font-weight: 370;
+    font-weight: 470;
 }
 
-.workSection {
-    margin-top: 8rem;
+.addSection {
+    margin-top: 6rem;
 }
 
-.logo2 .material-icons {
-    font-size: 21.875rem;
-    margin-left: 10.5rem;
+.addTitle {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.addTitle .fa-address-book {
+    font-size: 3rem;
     color: #13262F;
 }
 
-.workSection .workText h3 {
-    margin-left: 53rem;
-    margin-top: -20rem;
+.addSection .addText ul {
+    margin-left: 5rem;
+    height: 6rem;
+    margin-top: -5rem;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 80%;
+    background-color: #f0f2f2;
+    word-spacing: 0.1rem;
+    line-height: 1.875rem;
     font-family: 'Raleway', sans-serif;
-    font-weight: 650;
+    font-size: 0.938rem;
+    font-weight: 470;
+}
+
+.workTitle {
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 1rem;
+    margin-top: 4rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.workTitle .material-icons {
+    font-size: 3rem;
+    color: #13262F;
 }
 
 .workSection .workText ul {
-    margin-left: 38rem;
-    margin-top: -4rem;
-    height: 12rem;
-    padding-top: 4rem;
+    margin-left: 5rem;
+    height: 22rem;
+    padding-top: 3rem;
     padding-bottom: 4rem;
     padding-left: 2rem;
     padding-right: 2rem;
-    width: 37rem;
+    width: 80%;
     background-color: #f0f2f2;
-    word-spacing: 0.438rem;
+    word-spacing: 0.1rem;
     line-height: 1.875rem;
     font-family: 'Raleway', sans-serif;
     font-size: 0.938rem;
-    font-weight: 370;
+    font-weight: 470;
 }
 
-.curricSection {
-    margin-top: 8rem;
-}
-
-.curricSection .curricText h3 {
-    margin-left: 48.5rem;
-    margin-top: -20rem;
+.extraTitle {
     font-family: 'Raleway', sans-serif;
-    font-weight: 650;
+    font-weight: 900;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.extraTitle .fa-group {
+    font-size: 3rem;
+    color: #13262F;
 }
 
 .curricSection .curricText ul {
-    margin-left: 38rem;
-    margin-top: -4rem;
-    height: 12rem;
-    padding-top: 4rem;
+    margin-left: 5rem;
+    height: 28rem;
+    padding-top: 3em;
     padding-bottom: 4rem;
     padding-left: 2rem;
     padding-right: 2rem;
-    width: 37rem;
+    width: 80%;
     background-color: #f0f2f2;
     word-spacing: 0.438rem;
     line-height: 1.875rem;
     font-family: 'Raleway', sans-serif;
     font-size: 0.938rem;
-    font-weight: 370;
-}
-
-.logo3 .fa-group {
-    font-size: 17.875rem;
-    margin-left: 11.5rem;
-    color: #13262F;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    font-weight: 470;
 }
 
 .bottomHeader {
@@ -745,10 +1119,29 @@ input[type=submit], .formSection .submitButton3:hover {
     font-family: 'Raleway', sans-serif;
     font-size: 1.5rem;
     margin: 0;
+    margin-top: 4rem;
 }
 
-input[type=text], .container textarea {
-    width: 100%;
+.container .tlabel1 {
+    margin-left: 46.8%;
+}
+
+.container .tlabel2 {
+    margin-left: 46%;
+}
+
+.container .tlabel3 {
+    margin-left: 47.5%;
+}
+
+.container .fname {
+    width: 45%;
+    margin-left: 28%;
+}
+
+.container textarea {
+    width: 45%;
+    margin-left: 28%;
     font-family: 'Raleway', sans-serif;
     padding: 0.75rem;
     border: 0.063rem solid #ccc;
@@ -759,12 +1152,13 @@ input[type=text], .container textarea {
     resize: vertical
 }
 
-input[type=submit], .container .submitButton {
+.container .submitButton {
     background-color: #04AA6D;
     color: white;
     font-family: 'Raleway', sans-serif;
     padding: .75rem 1.25rem;
     border: none;
+    margin-left: 45.5%;
     border-radius: .25rem;
     cursor: pointer;
 }
@@ -947,108 +1341,124 @@ input[type=submit], .container2 .submitButton5:hover {
     }
 }
 
-.schoolSection2 {
-    margin-top: 8rem;
-}
-
-.logo1-2 .material-icons {
-    font-size: 21.875rem;
-    margin-left: 10.5rem;
-    color: #562C2C;
-}
-
-.schoolSection2 .schoolText2 h3 {
-    margin-left: 56rem;
-    margin-top: -20rem;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 650;
-}
-
 .schoolSection2 .schoolText2 ul {
-    margin-left: 38rem;
-    margin-top: -4rem;
-    height: 12rem;
+    margin-left: 5rem;
+    height: 15rem;
     padding-top: 4rem;
     padding-bottom: 4rem;
     padding-left: 2rem;
     padding-right: 2rem;
-    width: 37rem;
+    width: 80%;
     background-color: #f0f2f2;
-    word-spacing: 0.438rem;
+    word-spacing: 0.1rem;
     line-height: 1.875rem;
     font-family: 'Raleway', sans-serif;
     font-size: 0.938rem;
-    font-weight: 370;
+    font-weight: 470;
 }
 
-.workSection2 {
-    margin-top: 8rem;
-}
-
-.logo2-2 .material-icons {
-    font-size: 21.875rem;
-    margin-left: 10.5rem;
-    color: #562C2C;
-}
-
-.workSection2 .workText2 h3 {
-    margin-left: 53rem;
-    margin-top: -20rem;
+.edTitle2 {
     font-family: 'Raleway', sans-serif;
-    font-weight: 650;
+    font-weight: 900;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.edTitle2 .material-icons {
+    font-size: 3rem;
+    color: #562C2C;
 }
 
 .workSection2 .workText2 ul {
-    margin-left: 38rem;
-    margin-top: -4rem;
-    height: 12rem;
+    margin-left: 5rem;
+    height: 22rem;
     padding-top: 4rem;
     padding-bottom: 4rem;
     padding-left: 2rem;
     padding-right: 2rem;
-    width: 37rem;
+    width: 80%;
     background-color: #f0f2f2;
-    word-spacing: 0.438rem;
+    word-spacing: 0.1rem;
     line-height: 1.875rem;
     font-family: 'Raleway', sans-serif;
     font-size: 0.938rem;
-    font-weight: 370;
+    font-weight: 470;
 }
 
-.curricSection2 {
-    margin-top: 8rem;
-}
-
-.curricSection2 .curricText2 h3 {
-    margin-left: 48.5rem;
-    margin-top: -20rem;
+.workTitle2 {
     font-family: 'Raleway', sans-serif;
-    font-weight: 650;
+    font-weight: 900;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.workTitle2 .material-icons {
+    font-size: 3rem;
+    color: #562C2C;
+}
+
+.extraTitle2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.extraTitle2 .fa-group {
+    font-size: 3rem;
+    color: #562C2C;
 }
 
 .curricSection2 .curricText2 ul {
-    margin-left: 38rem;
-    margin-top: -4rem;
-    height: 12rem;
+    margin-left: 5rem;
+    height: 28rem;
     padding-top: 4rem;
     padding-bottom: 4rem;
     padding-left: 2rem;
     padding-right: 2rem;
-    width: 37rem;
+    width: 80%;
     background-color: #f0f2f2;
-    word-spacing: 0.438rem;
+    word-spacing: 0.1rem;
     line-height: 1.875rem;
     font-family: 'Raleway', sans-serif;
     font-size: 0.938rem;
-    font-weight: 370;
+    font-weight: 470;
 }
 
-.logo3-2 .fa-group {
-    font-size: 17.875rem;
-    margin-left: 11.5rem;
+.addSection2 {
+    margin-top: 6rem;
+}
+
+.addTitle2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.addTitle2 .fa-address-book {
+    font-size: 3rem;
     color: #562C2C;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+}
+
+.addSection2 .addText2 ul {
+    margin-left: 5rem;
+    height: 6rem;
+    margin-top: -5rem;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 80%;
+    background-color: #f0f2f2;
+    word-spacing: 0.1rem;
+    line-height: 1.875rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.938rem;
+    font-weight: 470;
 }
 
 /* Code for template 3 */
@@ -1167,6 +1577,7 @@ input[type=submit], .container2 .submitButton5:hover {
 .logo1-4 .material-icons {
     font-size: 21.875rem;
     margin-left: 10.5rem;
+    margin-top: 6rem;
     color: #49393B;
 }
 
@@ -1180,7 +1591,7 @@ input[type=submit], .container2 .submitButton5:hover {
     font-size: 17.875rem;
     margin-left: 11.5rem;
     color: #49393B;
-    margin-top: 2rem;
+    margin-top: 9rem;
     margin-bottom: 2rem;
 }
 
@@ -1192,6 +1603,54 @@ input[type=submit], .container2 .submitButton5:hover {
     font-size: 21.875rem;
     margin-left: 10.5rem;
     color: #562C2C;
+}
+
+.curricSection3 .curricText3 h3 {
+    margin-left: 50rem;
+    margin-top: -20rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 650;
+}
+
+.curricSection3 .curricText3 ul {
+    margin-left: 40rem;
+    margin-top: -4rem;
+    height: 12rem;
+    padding-top: 4rem;
+    padding-bottom: 35rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 37rem;
+    background-color: #f0f2f2;
+    word-spacing: 0.438rem;
+    line-height: 1.875rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.938rem;
+    font-weight: 370;
+}
+
+.schoolSection3 .schoolText3 h3 {
+    margin-left: 58rem;
+    margin-top: -20rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 650;
+}
+
+.schoolSection3 .schoolText3 ul {
+    margin-left: 40rem;
+    margin-top: -4rem;
+    height: 12rem;
+    padding-top: 4rem;
+    padding-bottom: 10rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 37rem;
+    background-color: #f0f2f2;
+    word-spacing: 0.438rem;
+    line-height: 1.875rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.938rem;
+    font-weight: 370;
 }
 
 .workSection3 .workText3 h3 {
@@ -1206,7 +1665,7 @@ input[type=submit], .container2 .submitButton5:hover {
     margin-top: -4rem;
     height: 12rem;
     padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-bottom: 27rem;
     padding-left: 2rem;
     padding-right: 2rem;
     width: 37rem;
@@ -1380,7 +1839,6 @@ input[type=submit], .container2 .submitButton5:hover {
     cursor: pointer;
     position: absolute;
     top: 66rem;
-    ;
     width: auto;
     margin-top: -1.375rem;
     padding: 1rem;

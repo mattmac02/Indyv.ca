@@ -1,5 +1,5 @@
 <html>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width">
 <link href="style.css" type="text/css" rel="stylesheet">
 <title>
     Indyv.ca
@@ -10,9 +10,9 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <body>
-    
     <div class="tester">
-        <i class="material-icons" style="font-size:4rem;margin-top:-2rem;margin-left:2rem;color:white;"> <!--Fingerprint icon-->
+        <i class="material-icons">
+            <!--Fingerprint icon-->
             fingerprint
         </i>
     </div>
@@ -23,21 +23,18 @@
     </div>
     <div class="subheader1">
         <h3>
-            A personal portfolio generation service using only your resume.
+            Convert your resume into a personal website... for free!
         </h3>
     </div>
     <div class="buttons">
         <span>
-            <button class="learnMoreButton" onclick="document.getElementById('learnMoreLink').scrollIntoView();"> <!--Scrolls down to the learn more section-->
-                Learn More
-            </button>
             <button class="beginDevelopingButton" onclick="document.location='beginDeveloping.html'">
-                Begin Developing!
+                Make My Website!
             </button>
         </span>
     </div>
     <div class="example">
-        <img src="Untitled design.png" style="z-index: -1;">
+        <img src="website.template.png">
         <p>
             Be unique and stand out to recruiters!
         </p>
@@ -53,38 +50,66 @@
                 <h2>
                     How it Works
                 </h2>
-                    Indyv.ca allows you to easily and effectively build a website from only your resume! By retrieving
-                    the information inputted by you it creates the personal portfolio of your dreams, allowing you to
-                    take on the professional world. If you're looking for a way to standout, Indyv.ca has your back.
+                <p>
+                Indyv.ca allows you to easily build a personal website using only your resume!<br><b>&nbsp;&nbsp;&nbsp;1) Input your personal information</b> <br><b>&nbsp;&nbsp;&nbsp;2) Press 'Create'</b> <br><b>&nbsp;&nbsp;&nbsp;3) Indyv.ca will create a polished personal website for you.</b><br>It's that easy!
+                </p>
             </div>
             <div class="gearLogo">
                 <i class="fa fa-gears"></i>
             </div>
             <br>
             <div class="devBox">
-                    <h2>
-                        Professional Development
-                    </h2>
-                    Indyv.ca is a one stop shop for advancing your professional life and showing the world who you are.
-                    Having a personal portfolio is an effective way to impress recruiters and make a name for yourself,
-                    and with the clean and adaptable software we use, your portfolio will always be up to date and a
-                    pleasure to share.
+                <h2>
+                    Professional Development
+                </h2>
+                Indyv.ca is a one-stop-shop for advancing your professional goals and showing the world who you are.
+                Having a personal website is an effective way to impress recruiters and make a name for yourself.
             </div><br>
             <div class="chartLogo">
                 <i class="fa fa-line-chart"></i>
             </div>
             <div class="thinkBox">
-                    <h2>
-                        Thinking Outside the Box
-                    </h2>
-                    At Indyv.ca, forward thinking is very important to us. Whether you're a student looking for a
-                    summer internship, or an adult looking for full time employment, having a place where people can
-                    access a headquarters for all things you is key to being unique in your search for employment.
+                <h2>
+                    Thinking Outside the Box
+                </h2>
+                Show recruiters that you're forward thinking. Whether you're a student looking for a
+                summer internship, or an adult looking for full time employment, having a personal website is key to standing out in your search for employment.
             </div>
             <div class="bulbLogo">
                 <i class="fa fa-lightbulb-o"></i>
             </div>
         </div>
     </div>
+
+    <div class="footer">
+        <h1>Have a question? Don't hesitate to ask!</h1>
+        <div class="footerForm">
+            <form name="Homepage Contact" method="POST" data-netlify="true">
+                <label for="fname">
+                    Full Name
+                </label><br>
+                <input type="text" id="fname" name="Fullname" placeholder="Your full name..." style="width:35rem;"><br>
+                <!--Full name input-->
+
+                <label for="email">
+                    Email Address
+                </label><br>
+                <input type="text" name="Mail " placeholder="Your email address..." style="width:35rem;"><br>
+                <!--Email input-->
+                <div class="contactMessage">
+                    <label class="messageTitle">
+                        Message
+                    </label><br>
+                    <textarea type="text" name="Personal Description" placeholder="Leave a comment..."
+                        class="txtarea1"></textarea><br>
+                    <!--Personal bio input-->
+                    <input type="submit" name="Homepage Submit" value="Submit" class="submitButton6">
+                </div>
+                <p>© 2021 Indyv All Rights Reserved</p>
+            </form>
+            <i class="material-icons">fingerprint</i>
+        </div>
+    </div>
 </body>
+
 </html>

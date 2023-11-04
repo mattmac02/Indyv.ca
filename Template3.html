@@ -9,7 +9,8 @@
 <body>
     <div class="navigationBar2">
         <h1>
-            <i class="material-icons" style="font-size:36px"> <!--Fingerprint icon-->
+            <i class="material-icons" style="font-size:36px">
+                <!--Fingerprint icon-->
                 fingerprint
             </i>
             <!--Social media icons-->
@@ -22,38 +23,48 @@
         </h1>
     </div>
     <div class="nameAndPic">
-        <span><img src="Headshot copy.jpg"></span> <!--Headshot-->
+        <span><img src="Headshot copy.jpg"></span>
+        <!--Headshot-->
         <span>
-            <p>"Your Name Here"</p> <!--Name beside headshot-->
+            <p>Matthew MacEachern</p>
+            <!--Name beside headshot-->
         </span>
     </div>
     <div class="bigTitle">
-        <h1>"Profession/Degree"</h1> <!--Profession/Degree under headshot-->
+        <h1>Computer Engineer</h1>
+        <!--Profession/Degree under headshot-->
     </div>
     <!--Personal bio-->
     <div class="miniDes">
-        <h2>Short Personal Bio:<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dolor arcu, viverra eu
-            dapibus non, suscipit quis elit. Vivamus euismod dolor non magna porta, ac congue orci tristique. </h2>
+        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dolor arcu, viverra eu
+            dapibus non, suscipit quis elit. Vivamus euismod dolor non magna porta, ac congue orci tristique.</h2>
     </div>
     <div class="buttons34">
         <span class="button3">
-            <button><a href="Resume Good copy.jpg" download="My Resume" class="resumeDownload2">My Resume</button></a> <!--Resume download button-->
+            <button><a href="Matthew_MacEachern_Resume_July_2021_V1.pdf"
+                    download="Matthew_MacEachern_Resume_July_2021_V1.pdf" class="resumeDownload2">My Resume</button></a>
+            <!--Resume download button-->
         </span>
         <span class="button4">
             <button class="learnMoreButton4"><a href="#learnMore4Link">Get to Know Me!</a></button>
         </span>
     </div>
     <!--Education section-->
-    <div id="learnMore4Link" class="schoolSection">
+    <div id="learnMore4Link" class="schoolSection3">
         <span class="logo1-4">
             <i class="material-icons">school</i>
         </span>
-        <span class="schoolText">
+        <span class="schoolText3">
             <h3>Education</h3>
             <ul>
-                <li>Coffee</li>
-                <li>Tea</li>
-                <li>Milk</li>
+                <b>Queen's University - B.A.Sc. Computer Engineering</b><br>
+                • Queen’s University Excellence Scholarship (2020)<br>
+                • Dean’s List Scholar with GPA of 3.52
+                <br><br><b>Bishop Macdonell Catholic High School</b><br>
+                • Valedictorian<br>
+                • Senior Athlete of the Year<br>
+                • John A. Hourigan Award for academic performance, future potential, and community involvement<br>
+                • 4x Ontario Scholar Award – graduated with overall academic average of 90%
             </ul>
         </span>
     </div>
@@ -65,23 +76,51 @@
         <span class="workText3">
             <h3>Professional Experience</h3>
             <ul>
-                <li>Coffee</li>
-                <li>Tea</li>
-                <li>Milk</li>
+                <b><a style="color:blue;" href="www.indyv.ca">Indyv.ca</a> - Founder</b><br>
+                <em>Indyv.ca lets students convert their resume into a personal website with the click of a
+                    button.</em><br>
+                • Web platform build in HTML/CSS/JS that takes a student’s resume and generates a customized personal
+                website.<br>
+                • Market research indicated more and more job applications were asking for personal website links. This
+                tool fills the gap for
+                people who needed a website but didn’t have the tools to make one.<br>
+                • Front-end development using HTML/CSS/JavaScript. Hosted on Netlify and database served by Firebase.
+                <br><br><b>Puslinch Recreation Center - Facility Supervisor</b><br>
+                • Independently managed the entire facility. Responsible for supervising rentals, operating the Zamboni,
+                and landscaping.
+                <br><br><b>Pharmasave - Pharmacy Assistant</b><br>
+                • Managed back-of-store inventory and compounded ointments/pill capsules for the pharmacy team.<br>
+                • Ran cash register and interacted with 100+ customers daily in a busy downtown location.
             </ul>
         </span>
     </div>
     <!--Extracurricular section-->
-    <div class="curricSection">
+    <div class="curricSection3">
         <span class="logo3-4">
             <i class="fa fa-group"></i>
         </span>
-        <span class="curricText">
+        <span class="curricText3">
             <h3>Extracurricular & Leadership Experience</h3>
             <ul>
-                <li>Coffee</li>
-                <li>Tea</li>
-                <li>Milk</li>
+                <b>Queen's Technology and Media Association - Software Developer</b><br>
+                • Responsible for full stack programming of the product using modern technologies and frameworks<br>
+                • Ideating and performing market research to find an unsolved need in peoples daily lives that can be
+                solved with technology<br>
+                • Team consists of developers, designers, and PM’s responsible for bringing one student-based product to
+                market each year.
+                <br><br><b>Queen's Space Engineering Team - Landing Pad Engineer</b><br>
+                • Personally designed a 3D CAD model of the Mars rover landing pad in SOLIDWORKS.<br>
+                • Landing pad was constructed in 2021 and will be used in the University Rover Challenge (in Utah)
+                post-COVID.
+                <br><br><b>Guelph Youth Council - City Council Member</b><br>
+                • Selected as 1 of only 12 students across Guelph to lead a council for supporting struggling youth in
+                the city.<br>
+                • Organized and launched an advocacy program to deliver mental health resources to youth via sponsored
+                social media and
+                in-school advertising. The program reached over 700 local youth.
+                <br><br><b>Bishop Macdonell Athletic Council - Vice President</b><br>
+                • Managed all financial decisions for the council. Responsible for setting and hitting revenue/donation
+                targets for events.
             </ul>
         </span>
     </div>
@@ -91,16 +130,13 @@
     <!--Contact form-->
     <div class="container">
         <form action="mailto:mattmac02@hotmail.ca" method="post" enctype="text/plain">
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your first name...">
+            <label for="fname" class="tlabel1">First Name</label>
+            <input type="text" class="fname" name="firstname" placeholder="Your first name...">
 
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+            <label for="email" class="tlabel2">Email Address</label>
+            <input type="text" class="fname" name="mail" placeholder="Your email address...">
 
-            <label for="email">Email Address</label>
-            <input type="text" name="mail" placeholder="Your email address...">
-
-            <label for="subject">Subject</label>
+            <label for="subject" class="tlabel3">Subject</label>
             <textarea id="subject" name="subject" placeholder="Write something..." style="height:6.25rem"></textarea>
 
             <input type="submit" class="submitButton" value="Submit">

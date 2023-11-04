@@ -1,111 +1,24 @@
-//         // Get the modal
-//         var modal1 = document.getElementById("myModal");
-        
-//         // Get the image and insert it inside the modal - use its "alt" text as a caption
-//         var img = document.getElementById("myImg");
-//         var modalImg = document.getElementById("img01");
-//         var captionText = document.getElementById("caption");
-//         img.onclick = function(){
-//           modal1.style.display = "block";
-//           modalImg.src = this.src;
-//           captionText.innerHTML = this.alt;
-//         }
-        
-//         // Get the <span> element that closes the modal
-//         var span = document.getElementsByClassName("close")[0];
-        
-//         // When the user clicks on <span> (x), close the modal
-//         span.onclick = function() { 
-//           modal1.style.display = "none";
-//         }
-//         // Get the modal
-//         var modal1 = document.getElementById("myModal");
-        
-//         // Get the image and insert it inside the modal - use its "alt" text as a caption
-//         var img = document.getElementById("myImg2");
-//         var modalImg = document.getElementById("img01");
-//         var captionText = document.getElementById("caption");
-//         img.onclick = function(){
-//           modal1.style.display = "block";
-//           modalImg.src = this.src;
-//           captionText.innerHTML = this.alt;
-//         }
-        
-//         // Get the <span> element that closes the modal
-//         var span = document.getElementsByClassName("close")[0];
-        
-//         // When the user clicks on <span> (x), close the modal
-//         span.onclick = function() { 
-//           modal1.style.display = "none";
-//         }
-//         // Get the modal
-//         var modal1 = document.getElementById("myModal");
-        
-//         // Get the image and insert it inside the modal - use its "alt" text as a caption
-//         var img = document.getElementById("myImg3");
-//         var modalImg = document.getElementById("img01");
-//         var captionText = document.getElementById("caption");
-//         img.onclick = function(){
-//           modal1.style.display = "block";
-//           modalImg.src = this.src;
-//           captionText.innerHTML = this.alt;
-//         }
-        
-//         // Get the <span> element that closes the modal
-//         var span = document.getElementsByClassName("close")[0];
-        
-//         // When the user clicks on <span> (x), close the modal
-//         span.onclick = function() { 
-//           modal1.style.display = "none";
-//         }
-
-//         // Get the modal
-// var modal = document.getElementById('id01');
-
-// // When the user clicks anywhere outside of the modal, close it
-// window.onclick = function(event) {
-//   if (event.target == modal) {
-//     modal.style.display = "none";
-//   }
-// }
-//         $(document).ready(function() {
-//             var max_fields      = 5; //maximum input boxes allowed
-//             var wrapper   		= $(".input_fields_wrap"); //Fields wrapper
-//             var add_button      = $(".submitButton2"); //Add button ID
-
-//             var x = 1; //initlal text box count
-//             $(add_button).click(function(e){ //on add input button click
-//                 e.preventDefault();
-//                 if(x < max_fields){ //max input box allowed
-//                     x++; //text box increment
-//                     $(wrapper).append('<div><input class ="txtBox" type="text" name="mytext[]"/><a href="#" class="remove_field"><i class="fa fa-trash"></i></a></div>'); //add input box
-//                 }
-//             });
-//             $(wrapper).on("click",".remove_field", function(e){ //user click on remove text
-//                 e.preventDefault(); $(this).parent('div').remove(); x--;
-//             })
-//         }); 
-//         document.body.onload = getElementById('id01');
-
-
-
-
-
-
-
-
-// Get the modal
-var modal1 = document.getElementById("myModal");
-
 // Get the image and insert it inside the modal - use its "alt" text as a caption
 var img = document.getElementById("myImg");
+var img2 = document.getElementById("myImg2");
+var img3 = document.getElementById("myImg3");
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
 img.onclick = function () {
     modal1.style.display = "block";
     modalImg.src = this.src;
     captionText.innerHTML = this.alt;
-}
+};
+img2.onclick = function () {
+    modal1.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+};
+img3.onclick = function () {
+    modal1.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+};
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
@@ -114,86 +27,72 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function () {
     modal1.style.display = "none";
 }
+
+// When the user clicks esc it will close the image modal
+var modal1 = document.querySelector('.modal')
+window.addEventListener('keydown', function (event) {
+    if (event.key === 'Escape') {
+        modal1.style.display = 'none'
+    }
+})
+
 // Get the modal
 var modal1 = document.getElementById("myModal");
 
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById("myImg2");
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-img.onclick = function () {
-    modal1.style.display = "block";
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
+const targetDiv2 = document.getElementById("infoFille2");
+const targetDiv3 = document.getElementById("infoFille3");
+const btn1 = document.getElementById("submitButton2e");
+const btn2 = document.getElementById("submitButton2e2");
+const targetDiv22 = document.getElementById("infoFillp2");
+const targetDiv32 = document.getElementById("infoFillp3");
+const btn12 = document.getElementById("submitButton2p");
+const btn22 = document.getElementById("submitButton2p2");
+const targetDiv23 = document.getElementById("infoFillv2");
+const targetDiv33 = document.getElementById("infoFillv3");
+const btn13 = document.getElementById("submitButton2v");
+const btn23 = document.getElementById("submitButton2v2");
+targetDiv2.style.display = "none";
+targetDiv3.style.display = "none";
+targetDiv22.style.display = "none";
+targetDiv32.style.display = "none";
+targetDiv23.style.display = "none";
+targetDiv33.style.display = "none";
+btn1.onclick = function () {
+    if (targetDiv2.style.display == "none") {
+        targetDiv2.style.display = "block";
+        btn1.style.display = "none";
+        btn2.style.display = "block";
+    }
 }
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function () {
-    modal1.style.display = "none";
+btn2.onclick = function () {
+    if (targetDiv3.style.display == "none") {
+        targetDiv3.style.display = "block";
+        btn2.style.display = "none";
+    }
+};
+btn12.onclick = function () {
+    if (targetDiv22.style.display == "none") {
+        targetDiv22.style.display = "block";
+        btn12.style.display = "none";
+        btn22.style.display = "block";
+    }
 }
-// Get the modal
-var modal1 = document.getElementById("myModal");
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById("myImg3");
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-img.onclick = function () {
-    modal1.style.display = "block";
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
+btn22.onclick = function () {
+    if (targetDiv32.style.display == "none") {
+        targetDiv32.style.display = "block";
+        btn22.style.display = "none";
+    }
+};
+btn13.onclick = function () {
+    if (targetDiv23.style.display == "none") {
+        targetDiv23.style.display = "block";
+        btn13.style.display = "none";
+        btn23.style.display = "block";
+    }
 }
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function () {
-    modal1.style.display = "none";
-}
-
-$(document).ready(function () {
-  var max_fields = 5; //maximum input boxes allowed
-  var wrapper1 = $(".input_fields_wrap1"); //Fields wrapper
-  var wrapper2 = $(".input_fields_wrap2"); //Fields wrapper
-  var wrapper3 = $(".input_fields_wrap3"); //Fields wrapper
-  var add_button1 = $(".submitButton2e"); //Add button ID
-  var add_button2 = $(".submitButton2p"); //Add button ID
-  var add_button3 = $(".submitButton2v"); //Add button ID
-
-  var x = 1; //initlal text box count
-  $(add_button1).click(function (e) { //on add input button click
-      e.preventDefault();
-      if (x < max_fields) { //max input box allowed
-          x++; //text box increment
-          $(wrapper1).append('<div><input class ="txtBox" type="text" name="mytext[]"/><a href="#" class="remove_field"><i class="fa fa-trash"></i></a></div>'); //add input box
-      }
-  });
-  $(add_button2).click(function (e) {
-      e.preventDefault();
-      if (x < max_fields) {
-          x++;
-          $(wrapper2).append('<div><input class ="txtBox" type="text" name="mytext[]"/><a href="#" class="remove_field"><i class="fa fa-trash"></i></a></div>');
-      }
-  });
-  $(add_button3).click(function (e) {
-      e.preventDefault();
-      if (x < max_fields) {
-          x++;
-          $(wrapper3).append('<div><input class ="txtBox" type="text" name="mytext[]"/><a href="#" class="remove_field"><i class="fa fa-trash"></i></a></div>');
-      }
-  });
-  $(wrapper1).on("click", ".remove_field", function (e) { //user click on remove text
-      e.preventDefault(); $(this).parent('div').remove(); x--;
-  })
-  $(wrapper2).on("click", ".remove_field", function (e) {
-      e.preventDefault(); $(this).parent('div').remove(); x--;
-  })
-  $(wrapper3).on("click", ".remove_field", function (e) {
-      e.preventDefault(); $(this).parent('div').remove(); x--;
-  })
-});
-document.body.onload = getElementById('id01');
+btn23.onclick = function () {
+    if (targetDiv33.style.display == "none") {
+        targetDiv33.style.display = "block";
+        btn23.style.display = "none";
+    }
+};
